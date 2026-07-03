@@ -1,0 +1,275 @@
+{
+  "source": "https://nikolaradeski.com/#about",
+  "tokens": {
+    "spacing": {
+      "base_unit": 5,
+      "scale": [5, 10, 13, 15, 20, 24, 29, 30, 40, 42, 45, 52, 64, 90, 180, 232],
+      "notes": [
+        "Body padding is 0px; main container uses 30px side padding and 88px bottom padding.",
+        "About content starts at x=180px; visible text column is 532px wide.",
+        "Text column right edge is x=712px; portrait starts at x=944px, leaving about 232px of horizontal pause."
+      ]
+    },
+    "typography": {
+      "families": [
+        "General Sans - Regular",
+        "General Sans - Medium",
+        "General Sans - Semibold",
+        "Gloria Hallelujah",
+        "Clash Display - Semibold",
+        "Clash Display - Medium"
+      ],
+      "scale": [
+        {
+          "role": "oversize section wordmark",
+          "size": "230.4px",
+          "weight": "400",
+          "line_height": "276.48px",
+          "letter_spacing": "-0.5px",
+          "family": "General Sans"
+        },
+        {
+          "role": "home hero h1",
+          "size": "86.4px",
+          "weight": "400",
+          "line_height": "82.08px",
+          "letter_spacing": "-0.5px",
+          "family": "General Sans"
+        },
+        {
+          "role": "about headline",
+          "size": "44.8px",
+          "weight": "400",
+          "line_height": "44.8px",
+          "letter_spacing": "-2px",
+          "family": "General Sans"
+        },
+        {
+          "role": "skill card heading",
+          "size": "36px",
+          "weight": "400",
+          "line_height": "36px",
+          "letter_spacing": "-2.5px",
+          "family": "General Sans"
+        },
+        {
+          "role": "award row heading",
+          "size": "24px",
+          "weight": "400",
+          "line_height": "24px",
+          "letter_spacing": "-1.5px",
+          "family": "General Sans"
+        },
+        {
+          "role": "trust heading",
+          "size": "20px",
+          "weight": "400",
+          "line_height": "22px",
+          "letter_spacing": "-0.7px",
+          "family": "General Sans"
+        },
+        {
+          "role": "body and eyebrow",
+          "size": "16px",
+          "weight": "400",
+          "line_height": "22.4px",
+          "letter_spacing": "-0.5px",
+          "family": "General Sans"
+        },
+        {
+          "role": "fixed nav links",
+          "size": "15px",
+          "weight": "400",
+          "line_height": "21px",
+          "letter_spacing": "-0.5px",
+          "family": "General Sans"
+        },
+        {
+          "role": "button labels",
+          "size": "13px",
+          "weight": "400",
+          "line_height": "14.3px",
+          "letter_spacing": "normal",
+          "family": "General Sans"
+        }
+      ]
+    },
+    "colors": [
+      {
+        "role": "page background",
+        "value": "#dbdbdb"
+      },
+      {
+        "role": "major surface",
+        "value": "#efefef"
+      },
+      {
+        "role": "secondary surface",
+        "value": "#eaeaea"
+      },
+      {
+        "role": "card surface",
+        "value": "#ffffff"
+      },
+      {
+        "role": "text primary",
+        "value": "#333333"
+      },
+      {
+        "role": "text secondary",
+        "value": "#6d6d6d"
+      },
+      {
+        "role": "text tertiary",
+        "value": "#a5a5a5"
+      },
+      {
+        "role": "accent and primary CTA",
+        "value": "#e27500"
+      },
+      {
+        "role": "alternate orange interactive state",
+        "value": "#e28800"
+      },
+      {
+        "role": "fixed nav shell",
+        "value": "#000000"
+      },
+      {
+        "role": "near-black interactive surface",
+        "value": "#141617"
+      }
+    ],
+    "radius": [
+      "10px social icons",
+      "12px repeated review cards",
+      "20px secondary rounded blocks",
+      "24px portrait card",
+      "30px primary and secondary about buttons",
+      "50px nav links and pills",
+      "100px fixed nav wrapper"
+    ],
+    "shadows": [
+      "0px 6px 32px 0px rgba(0, 0, 0, 0.15) on the portrait card",
+      "2px 2px 70px 33px #eaeaea on pale content blocks"
+    ],
+    "image_ratios": [
+      {
+        "usage": "about portrait",
+        "ratio": "270:380 rendered, about 0.71:1"
+      },
+      {
+        "usage": "portrait source",
+        "ratio": "1200:1600, 0.75:1"
+      },
+      {
+        "usage": "portfolio feature",
+        "ratio": "416:312, 1.33:1"
+      },
+      {
+        "usage": "portfolio wide feature",
+        "ratio": "416:235 to 416:242, about 1.72:1 to 1.77:1"
+      }
+    ],
+    "grid": {
+      "max_width": "1065px visible about band inside a 1425px page",
+      "columns": "no CSS grid detected",
+      "gutter": "about 232px between the text column and portrait",
+      "container_padding": "0px 30px 88px",
+      "text_column": "532px",
+      "portrait_column": "270px"
+    },
+    "components": {
+      "primary_button": {
+        "size": "168px x 40px",
+        "padding": "13px 29px",
+        "radius": "30px",
+        "background": "#e27500",
+        "text": "#eaeaea"
+      },
+      "secondary_buttons": {
+        "sizes": ["127px x 42px", "141px x 42px"],
+        "padding": "13px 29px",
+        "radius": "30px",
+        "border": "1px solid #333333",
+        "background": "#eaeaea",
+        "text": "#333333"
+      },
+      "social_icon": {
+        "size": "39px x 39px",
+        "padding": "10.8438px",
+        "radius": "10px",
+        "border": "1px solid #dbdbdb",
+        "background": "#eaeaea"
+      },
+      "fixed_nav": {
+        "wrapper": "528px x 52px at x=449px y=824px",
+        "padding": "5px",
+        "radius": "100px",
+        "background": "#000000",
+        "link_size": "15px / 21px",
+        "home_button": "42px x 40px",
+        "contact_button": "118px x 42px"
+      }
+    },
+    "motion": {
+      "transitions": [
+        "color/background/border-color 0.2s linear",
+        "transform/filter/background-color/border-color 0.3s",
+        "color 0.2s, opacity 0.4s cubic-bezier(0.21, 0.6, 0.35, 1), transform 0.4s cubic-bezier(0.21, 0.6, 0.35, 1)"
+      ],
+      "focus_visible": true,
+      "prefers_reduced_motion": true
+    }
+  },
+  "taste": [
+    {
+      "name": "Whitespace Does the Framing",
+      "trigger": "When presenting the about section and personal proof on a long one-page portfolio",
+      "decision": "Chose a wide gray field with typography-led grouping over boxed modules, dividers, or dense cards",
+      "reason": "Because the reader should feel that the person can leave space around claims instead of filling every viewport with proof",
+      "evidence": [
+        "Page background #dbdbdb and major surface #efefef dominate the screenshot",
+        "About text column is 532px wide while the visible band spans about 1065px",
+        "There is about 232px between the text column and the 270px portrait",
+        "No CSS grid was detected; section boundaries are created by whitespace and scroll distance"
+      ]
+    },
+    {
+      "name": "Accent as Punctuation",
+      "trigger": "When the page needs personality and clear actions without turning the whole surface into a brand color field",
+      "decision": "Chose orange only for the word Creative, rating stars, and the primary call-to-action over broad orange backgrounds or multiple accent colors",
+      "reason": "Because one hot color is easier to trust when it behaves like an instruction mark instead of a decorative wash",
+      "evidence": [
+        "Accent #e27500 appears on the 168px x 40px Schedule a call button and the Creative word",
+        "Most visible text uses #333333 or #6d6d6d",
+        "Secondary buttons keep #eaeaea backgrounds with 1px #333333 borders",
+        "DOM color counts show neutral surfaces #efefef, #eaeaea, and #ffffff far more often than solid #e27500"
+      ]
+    },
+    {
+      "name": "Small Control, Large Presence",
+      "trigger": "When a long single-page portfolio still needs persistent navigation",
+      "decision": "Chose a 528px x 52px fixed bottom capsule over a full header bar or a large side menu",
+      "reason": "Because navigation can stay constantly reachable while the first read remains about the content, not the site chrome",
+      "evidence": [
+        "Fixed nav wrapper is 528px x 52px at x=449px y=824px in a 1440px viewport",
+        "Wrapper uses #000000, 100px radius, and 5px padding",
+        "Nav labels are 15px with 21px line height",
+        "Home control is 42px x 40px and contact control is 118px x 42px"
+      ]
+    },
+    {
+      "name": "Human Proof Over Abstract Decoration",
+      "trigger": "When establishing credibility for a designer-founder profile",
+      "decision": "Chose one real portrait plus client and review proof over abstract 3D objects, heavy textures, or ornamental illustrations",
+      "reason": "Because the reader needs to connect the work claims to a person and to external proof before exploring the portfolio",
+      "evidence": [
+        "Only prominent first-viewport image is a 270px x 380px portrait with 24px radius",
+        "Portrait uses a single shadow: 0px 6px 32px rgba(0, 0, 0, 0.15)",
+        "Trust proof appears immediately below the CTAs as Trusted by over 130+ clients",
+        "Five social icons repeat as 39px x 39px boxes with 10px radius"
+      ]
+    }
+  ]
+}

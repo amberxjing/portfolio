@@ -1,0 +1,50 @@
+[
+  {
+    "tag": "div",
+    "class": "fusion-title title fusion-title-25 fusion-no-small-visibility fusion-sep-none fusion-title-text fusi",
+    "text": "Creative at the Core",
+    "x": 180,
+    "y": 52,
+    "width": 532,
+    "height": 45,
+    "color": "#6d6d6d",
+    "background": "#000000",
+    "backgroundImage": "none",
+    "webkitTextFillColor": "#6d6d6d",
+    "fontSize": "44.8px",
+    "lineHeight": "62.72px",
+    "letterSpacing": "-0.5px"
+  },
+  {
+    "tag": "h3",
+    "class": "fusion-title-heading title-heading-left awb-responsive-type__disable",
+    "text": "Creative at the Core",
+    "x": 180,
+    "y": 52,
+    "width": 532,
+    "height": 45,
+    "color": "#333333",
+    "background": "#000000",
+    "backgroundImage": "none",
+    "webkitTextFillColor": "#333333",
+    "fontSize": "44.8px",
+    "lineHeight": "44.8px",
+    "letterSpacing": "-2px"
+  },
+  {
+    "tag": "span",
+    "class": "",
+    "text": "Creative",
+    "x": 180,
+    "y": 46,
+    "width": 161,
+    "height": 56,
+    "color": "#e27500",
+    "background": "#000000",
+    "backgroundImage": "none",
+    "webkitTextFillColor": "#e27500",
+    "fontSize": "44.8px",
+    "lineHeight": "44.8px",
+    "letterSpacing": "-2px"
+  }
+]

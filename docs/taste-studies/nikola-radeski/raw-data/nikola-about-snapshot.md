@@ -1,0 +1,333 @@
+- generic [active] [ref=e1] [box=0,-5328,1425,17921]:
+  - link "Skip to content" [ref=e2] [cursor=pointer] [box=-1,-5329,1,1]:
+    - /url: "#content"
+  - generic [ref=e4] [box=0,-5328,1425,17921]:
+    - generic [box=0,-5328,1425,0]:
+      - generic [ref=e9] [box=449,824,528,52]:
+        - link [ref=e11] [cursor=pointer] [box=454,830,42,40]:
+          - /url: "#"
+          - generic [ref=e12] [box=464,840,22,20]: 
+        - link "Skills Skills" [ref=e14] [cursor=pointer] [box=527,840,34,21]:
+          - /url: "#skills"
+          - generic [ref=e15] [box=527,840,34,21]:
+            - generic [ref=e16] [box=527,840,34,21]: Skills
+            - generic [box=527,859,34,21]: Skills
+        - link "About About" [ref=e18] [cursor=pointer] [box=592,840,41,21]:
+          - /url: "#about"
+          - generic [ref=e19] [box=592,840,41,21]:
+            - generic [ref=e20] [box=592,840,41,21]: About
+            - generic [box=592,859,41,21]: About
+        - link "Portfolio Portfolio" [ref=e22] [cursor=pointer] [box=664,840,73,21]:
+          - /url: https://nikolaradeski.com/portfolio/
+          - generic [ref=e23] [box=664,840,56,21]:
+            - generic [ref=e24] [box=664,840,56,21]: Portfolio
+            - generic [box=664,859,56,21]: Portfolio
+          - generic [ref=e25] [box=730,843,7,15]: 
+        - link "Reviews Reviews" [ref=e27] [cursor=pointer] [box=769,840,53,21]:
+          - /url: "#testimonials"
+          - generic [ref=e28] [box=769,840,53,21]:
+            - generic [ref=e29] [box=769,840,53,21]: Reviews
+            - generic [box=769,859,53,21]: Reviews
+        - link "Hello, it's me Contact me" [ref=e31] [cursor=pointer] [box=853,829,118,42]:
+          - /url: "#contact"
+          - generic [ref=e32] [box=868,839,88,22]:
+            - generic [ref=e33] [box=868,818,88,22]: Hello, it's me
+            - generic [box=871,839,83,22]: Contact me
+      - text: 
+    - main [ref=e34] [box=0,-5328,1425,17135]:
+      - generic [ref=e38] [box=30,-5328,1365,17047]:
+        - generic [ref=e43] [box=42,-5246,1340,643]:
+          - generic [ref=e1818] [box=944,64,270,380]:
+            - generic [ref=e1819] [box=944,64,270,380]
+            - generic [ref=e1820] [box=944,64,270,380]
+          - generic [ref=e48] [box=158,-5046,1109,183]:
+            - generic [ref=e50] [box=186,-5046,527,149]
+            - generic [ref=e57] [box=713,-5046,554,183]
+        - generic [ref=e65] [box=180,-4603,1065,4534]:
+          - generic [ref=e74] [box=202,-631,499,460]:
+            - heading "Top performing" [level=6] [ref=e76] [box=256,-591,383,7]
+            - heading "01. Web Design" [level=3] [ref=e80] [box=257,-549,384,43]
+            - generic [ref=e83] [box=258,-478,385,94]
+            - generic [ref=e86] [box=260,-391,386,191]
+          - generic [ref=e100] [box=192,-592,499,420]:
+            - heading "MVP Go-to-market" [level=6] [ref=e102] [box=253,-552,383,7]
+            - heading "02. Product Design" [level=3] [ref=e106] [box=251,-510,384,43]
+            - generic [ref=e109] [box=249,-439,385,94]
+            - generic [ref=e112] [box=247,-352,386,152]
+          - generic [ref=e124] [box=192,-611,499,440]:
+            - heading "User Focused" [level=6] [ref=e126] [box=247,-571,383,7]
+            - heading "03. UI/UX Systems" [level=3] [ref=e130] [box=247,-530,384,43]
+            - generic [ref=e133] [box=249,-459,385,94]
+            - generic [ref=e136] [box=250,-371,386,172]
+          - generic [ref=e149] [box=202,-569,498,398]:
+            - heading "Brand Defining" [level=6] [ref=e151] [box=262,-529,383,7]
+            - heading "04. Graphic Design" [level=3] [ref=e155] [box=261,-488,384,43]
+            - generic [ref=e158] [box=259,-417,384,71]
+            - generic [ref=e161] [box=257,-352,386,152]
+          - generic [ref=e173] [box=192,-569,498,398]:
+            - heading "Detail Driven + AI" [level=6] [ref=e175] [box=247,-529,383,7]
+            - heading "05. Visual Design" [level=3] [ref=e179] [box=248,-488,384,43]
+            - generic [ref=e182] [box=249,-417,384,71]
+            - generic [ref=e185] [box=250,-352,386,152]
+          - generic [ref=e197] [box=202,-589,499,418]:
+            - heading "Motion with Purpose" [level=6] [ref=e199] [box=263,-549,383,7]
+            - heading "06. Video Editing" [level=3] [ref=e203] [box=261,-507,384,43]
+            - generic [ref=e206] [box=260,-436,384,71]
+            - generic [ref=e209] [box=257,-371,386,172]
+          - generic [ref=e222] [box=192,-634,499,462]:
+            - heading "Data Backed Decisions" [level=6] [ref=e224] [box=246,-594,383,7]
+            - heading "07. Digital Marketing" [level=3] [ref=e228] [box=247,-552,384,43]
+            - generic [ref=e231] [box=248,-481,385,116]
+            - generic [ref=e234] [box=250,-371,386,172]
+          - generic [ref=e246] [box=202,-552,498,381]:
+            - heading "Audience Growing" [level=6] [ref=e248] [box=262,-512,383,7]
+            - heading "08. Social Media Marketing" [level=3] [ref=e252] [box=261,-471,384,43]
+            - generic [ref=e255] [box=259,-400,385,94]
+            - generic [ref=e258] [box=257,-313,385,113]
+        - generic [ref=e266] [box=180,-1,1065,681]:
+          - generic [ref=e270] [box=180,-1,532,513]:
+            - heading "/ About Me" [level=5] [ref=e1743] [box=180,9,532,18]
+            - heading "Creative at the Core" [level=3] [ref=e1745] [box=180,52,532,45]
+            - generic [ref=e1746] [box=180,112,532,194]
+            - generic [ref=e271] [box=169,306,554,70]
+            - generic [ref=e274] [box=180,404,533,108]
+          - heading "13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award / 13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award /" [level=6] [ref=e278] [box=200,618,1024,22]:
+            - generic [ref=e279] [box=-991,618,1437,22]: 13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award /
+            - generic [ref=e280] [box=447,618,1437,22]: 13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award /
+        - generic [ref=e282] [box=180,817,1065,1123]:
+          - generic [ref=e292] [box=159,1177,1108,49]:
+            - heading "WD Website Favorite" [level=4] [ref=e296] [box=180,1187,401,24]
+            - heading "WD Awards" [level=4] [ref=e300] [box=623,1190,401,19]
+            - heading "April 3, 2026" [level=4] [ref=e304] [box=1066,1190,179,19]
+          - generic [ref=e307] [box=159,1254,1108,49]:
+            - heading "Project of The Day" [level=4] [ref=e311] [box=180,1264,401,24]
+            - heading "Astonishing Awards" [level=4] [ref=e315] [box=623,1266,401,19]
+            - heading "March 22, 2026" [level=4] [ref=e319] [box=1066,1266,179,19]
+          - generic [ref=e322] [box=159,1330,1108,49]:
+            - heading "Site of The Day Nominee" [level=4] [ref=e326] [box=180,1340,401,24]
+            - heading "Awwwards" [level=4] [ref=e330] [box=623,1342,401,19]
+            - heading "March 21, 2026" [level=4] [ref=e334] [box=1066,1342,179,19]
+          - generic [ref=e337] [box=159,1406,1108,49]:
+            - heading "Best Website Nominee" [level=4] [ref=e341] [box=180,1416,401,24]
+            - heading "WD Awards" [level=4] [ref=e345] [box=623,1419,401,19]
+            - heading "March 17, 2026" [level=4] [ref=e349] [box=1066,1419,179,19]
+          - generic [ref=e352] [box=159,1482,1108,49]:
+            - heading "Portfolio of The Day" [level=4] [ref=e356] [box=180,1492,401,24]
+            - heading "Foliobin" [level=4] [ref=e360] [box=623,1495,401,19]
+            - heading "March 03, 2026" [level=4] [ref=e364] [box=1066,1495,179,19]
+          - generic [ref=e367] [box=159,1559,1108,49]:
+            - heading "Site of The Month" [level=4] [ref=e371] [box=180,1569,401,24]
+            - heading "Web Design Awards" [level=4] [ref=e375] [box=623,1571,401,19]
+            - heading "March, 2026" [level=4] [ref=e379] [box=1066,1571,179,19]
+          - generic [ref=e382] [box=159,1635,1108,49]:
+            - heading "Site Highlight" [level=4] [ref=e386] [box=180,1645,401,24]
+            - heading "Foliobin" [level=4] [ref=e390] [box=623,1648,401,19]
+            - heading "February 20, 2026" [level=4] [ref=e394] [box=1066,1648,179,19]
+          - generic [ref=e397] [box=159,1711,1108,49]:
+            - heading "Site of The Day" [level=4] [ref=e401] [box=180,1721,401,24]
+            - heading "Web Design Awards" [level=4] [ref=e405] [box=623,1724,401,19]
+            - heading "Nov 24, 2025" [level=4] [ref=e409] [box=1066,1724,179,19]
+          - generic [ref=e412] [box=159,1788,1108,49]:
+            - heading "Site of The Day" [level=4] [ref=e416] [box=180,1798,401,24]
+            - heading "CSS Nectar" [level=4] [ref=e420] [box=623,1800,401,19]
+            - heading "October 8, 2025" [level=4] [ref=e424] [box=1066,1800,179,19]
+          - generic [ref=e427] [box=159,1864,1108,49]:
+            - heading "Site of The Day" [level=4] [ref=e431] [box=180,1874,401,24]
+            - heading "Web Guru Awards" [level=4] [ref=e435] [box=623,1876,401,19]
+            - heading "October 3, 2025" [level=4] [ref=e439] [box=1066,1876,179,19]
+        - heading "I work with founders, product teams, companies and brands based on strategy and innovation. I set one goal, cut noise, and move. When the job is done, the result is live and measured, not just designed." [level=3] [ref=e445] [box=180,2143,1065,233]:
+          - paragraph [ref=e1821] [box=180,2143,1065,233]:
+            - generic [ref=e1822] [box=180,2143,11,58]: I
+            - generic [ref=e1823] [box=199,2143,97,58]: work
+            - generic [ref=e1824] [box=304,2143,85,58]: with
+            - generic [ref=e1825] [box=397,2143,188,58]: founders,
+            - generic [ref=e1826] [box=593,2143,158,58]: product
+            - generic [ref=e1827] [box=758,2143,136,58]: teams,
+            - generic [ref=e1828] [box=903,2143,218,58]: companies
+            - generic [ref=e1829] [box=1129,2143,74,58]: and
+            - generic [ref=e1830] [box=180,2202,138,58]: brands
+            - generic [ref=e1831] [box=326,2202,121,58]: based
+            - generic [ref=e1832] [box=456,2202,50,58]: "on"
+            - generic [ref=e1833] [box=514,2202,164,58]: strategy
+            - generic [ref=e1834] [box=686,2202,74,58]: and
+            - generic [ref=e1835] [box=768,2202,214,58]: innovation.
+            - generic [ref=e1836] [box=990,2202,11,58]: I
+            - generic [ref=e1837] [box=1009,2202,63,58]: set
+            - generic [ref=e1838] [box=1080,2202,74,58]: one
+            - generic [ref=e1839] [box=180,2260,93,58]: goal,
+            - generic [ref=e1840] [box=282,2260,65,58]: cut
+            - generic [ref=e1841] [box=355,2260,116,58]: noise,
+            - generic [ref=e1842] [box=479,2260,74,58]: and
+            - generic [ref=e1843] [box=560,2260,119,58]: move.
+            - generic [ref=e1844] [box=688,2260,115,58]: When
+            - generic [ref=e1845] [box=811,2260,66,58]: the
+            - generic [ref=e1846] [box=884,2260,61,58]: job
+            - generic [ref=e1847] [box=953,2260,32,58]: is
+            - generic [ref=e1848] [box=993,2260,110,58]: done,
+            - generic [ref=e1849] [box=1111,2260,66,58]: the
+            - generic [ref=e1850] [box=180,2318,113,58]: result
+            - generic [ref=e1851] [box=301,2318,32,58]: is
+            - generic [ref=e1852] [box=342,2318,64,58]: live
+            - generic [ref=e1853] [box=414,2318,74,58]: and
+            - generic [ref=e1854] [box=496,2318,210,58]: measured,
+            - generic [ref=e1855] [box=714,2318,66,58]: not
+            - generic [ref=e1856] [box=788,2318,73,58]: just
+            - generic [ref=e1857] [box=869,2318,193,58]: designed.
+        - generic [ref=e475] [box=180,3757,1065,344]:
+          - link [ref=e477] [cursor=pointer] [box=180,3757,1065,344]:
+            - /url: https://nikolaradeski.com/portfolio/
+          - generic [box=180,3757,1065,344]:
+            - generic [box=288,3865,850,23]
+            - generic [box=288,3898,850,39]
+            - generic [box=313,3952,799,42]
+        - generic [ref=e490] [box=180,4446,1065,1653]:
+          - generic [ref=e491] [box=159,4446,1108,67]:
+            - generic [ref=e493] [box=180,4446,1065,24]
+            - paragraph [ref=e502] [box=180,4490,107,22]: TryHackMe LLC
+          - generic [ref=e505] [box=159,4556,1108,67]:
+            - generic [ref=e507] [box=180,4556,1065,24]
+            - paragraph [ref=e516] [box=180,4601,1065,22]: DirectlyNik™
+          - generic [ref=e519] [box=159,4667,1108,67]:
+            - generic [ref=e521] [box=180,4667,1065,24]
+            - paragraph [ref=e530] [box=180,4711,46,22]: Involve
+          - generic [ref=e533] [box=159,4777,1108,67]:
+            - generic [ref=e535] [box=180,4777,1065,24]
+            - paragraph [ref=e544] [box=180,4821,1065,22]: Simplify-ERP®
+          - generic [ref=e547] [box=159,4887,1108,67]:
+            - generic [ref=e549] [box=180,4887,1065,24]
+            - paragraph [ref=e558] [box=180,4931,1065,22]: GGHOSTMK
+          - generic [ref=e561] [box=159,4997,1108,67]:
+            - generic [ref=e563] [box=180,4997,1065,24]
+            - paragraph [ref=e572] [box=180,5041,1065,22]: Simplify-ERP®
+          - generic [ref=e575] [box=159,5107,1108,67]:
+            - generic [ref=e577] [box=180,5107,1065,24]
+            - paragraph [ref=e586] [box=180,5152,1065,22]: UFC
+          - generic [ref=e589] [box=159,5218,1108,67]:
+            - generic [ref=e591] [box=180,5218,1065,24]
+            - paragraph [ref=e600] [box=180,5262,1065,22]: PeoplePerHour
+          - generic [ref=e603] [box=159,5328,1108,67]:
+            - generic [ref=e605] [box=180,5328,1065,24]
+            - paragraph [ref=e614] [box=180,5372,1065,22]: PeoplePerHour
+          - generic [ref=e617] [box=159,5438,1108,67]:
+            - generic [ref=e619] [box=180,5438,1065,24]
+            - paragraph [ref=e628] [box=180,5482,1065,22]: UFC
+          - generic [ref=e631] [box=159,5548,1108,67]:
+            - generic [ref=e633] [box=180,5548,1065,24]
+            - paragraph [ref=e642] [box=180,5592,1065,22]: Fiverr
+          - generic [ref=e645] [box=159,5658,1108,67]:
+            - generic [ref=e647] [box=180,5658,1065,24]
+            - paragraph [ref=e656] [box=180,5703,1065,22]: Upwork
+          - generic [ref=e659] [box=159,5769,1108,67]:
+            - generic [ref=e661] [box=180,5769,1065,24]
+            - paragraph [ref=e670] [box=180,5813,1065,22]: YouTube/Twitch Streamers
+          - generic [ref=e673] [box=159,5879,1108,67]:
+            - generic [ref=e675] [box=180,5879,1065,24]
+            - paragraph [ref=e684] [box=180,5923,1065,22]: Bloger.hr (Index.hr)
+          - generic [ref=e687] [box=159,5989,1108,67]:
+            - generic [ref=e689] [box=180,5989,1065,24]
+            - paragraph [ref=e698] [box=180,6033,1065,22]: YouTube
+        - generic [ref=e711] [box=180,6517,1065,3210]:
+          - list [ref=e713] [box=175,6523,1075,3194]:
+            - listitem [ref=e714] [box=175,6523,358,311]
+            - listitem [ref=e740] [box=533,6523,358,311]
+            - listitem [ref=e766] [box=891,6523,358,311]
+            - listitem [ref=e792] [box=175,6834,358,288]
+            - listitem [ref=e818] [box=533,6834,358,311]
+            - listitem [ref=e844] [box=891,6834,358,266]
+            - listitem [ref=e870] [box=891,7100,358,288]
+            - listitem [ref=e896] [box=175,7122,358,311]
+            - listitem [ref=e922] [box=533,7145,358,311]
+            - listitem [ref=e948] [box=891,7388,358,311]
+            - listitem [ref=e974] [box=175,7433,358,311]
+            - listitem [ref=e1000] [box=533,7456,358,243]
+            - listitem [ref=e1026] [box=533,7699,358,243]
+            - listitem [ref=e1052] [box=891,7699,358,311]
+            - listitem [ref=e1078] [box=175,7744,358,311]
+            - listitem [ref=e1104] [box=533,7942,358,311]
+            - listitem [ref=e1130] [box=891,8010,358,311]
+            - listitem [ref=e1156] [box=175,8055,358,311]
+            - listitem [ref=e1182] [box=533,8253,358,288]
+            - listitem [ref=e1208] [box=891,8321,358,243]
+            - listitem [ref=e1234] [box=175,8366,358,266]
+            - listitem [ref=e1260] [box=533,8541,358,221]
+            - listitem [ref=e1286] [box=891,8564,358,243]
+            - listitem [ref=e1312] [box=175,8632,358,243]
+            - listitem [ref=e1338] [box=533,8762,358,266]
+            - listitem [ref=e1364] [box=891,8807,358,311]
+            - listitem [ref=e1390] [box=175,8875,358,288]
+            - listitem [ref=e1416] [box=533,9028,358,221]
+            - listitem [ref=e1442] [box=891,9118,358,243]
+            - listitem [ref=e1468] [box=175,9163,358,266]
+            - listitem [ref=e1494] [box=533,9249,358,311]
+            - listitem [ref=e1520] [box=891,9361,358,288]
+            - listitem [ref=e1546] [box=175,9429,358,288]
+          - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+        - generic [ref=e1577] [box=180,9965,1065,661]:
+          - generic [ref=e1582] [box=180,10110,1065,505]:
+            - heading "How do you ensure high-quality work?" [level=4] [ref=e1585] [cursor=pointer] [box=181,10111,1063,52]
+            - heading "What industries and clients have you worked with?" [level=4] [ref=e1592] [cursor=pointer] [box=181,10176,1063,52]
+            - heading "Do you work independently or as part of a team?" [level=4] [ref=e1599] [cursor=pointer] [box=181,10240,1063,52]
+            - heading "What makes you a good team player?" [level=4] [ref=e1606] [cursor=pointer] [box=181,10304,1063,52]
+            - heading "How do you approach client feedback?" [level=4] [ref=e1613] [cursor=pointer] [box=181,10369,1063,52]
+            - heading "Have you handled large or complex projects?" [level=4] [ref=e1620] [cursor=pointer] [box=181,10433,1063,52]
+            - heading "Why do clients trust you?" [level=4] [ref=e1627] [cursor=pointer] [box=181,10498,1063,52]
+            - heading "If you build agency, why apply for an in-house role?" [level=4] [ref=e1634] [cursor=pointer] [box=181,10562,1063,52]
+          - text:                
+        - generic [ref=e1644] [box=180,10842,1065,837]:
+          - generic [ref=e1651] [box=159,11039,1108,640]:
+            - generic [ref=e1653] [box=180,11039,479,620]
+            - generic [ref=e1690] [box=713,11050,533,618]
+          - text:    
+    - generic [ref=e1700] [box=0,11850,1425,743]:
+      - generic [ref=e1702] [box=-28,11850,1482,500]:
+        - heading "Nikola Radeski" [level=2] [ref=e1706] [box=-28,11850,1440,276]
+        - heading "Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱" [level=1] [ref=e1712] [box=-28,12029,1482,192]:
+          - generic [ref=e1713] [box=-2751,12029,3295,192]: Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱
+          - generic [ref=e1714] [box=544,12029,3295,192]: Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱
+        - generic [ref=e1719] [box=0,12280,1425,15]:
+          - generic [ref=e1720] [box=581,12280,15,15]: 
+          - heading "contact@nikolaradeski.com" [level=4] [ref=e1722] [box=607,12280,237,15]
+        - generic [ref=e1727] [box=0,12315,1425,15]:
+          - generic [ref=e1728] [box=634,12315,15,15]: 
+          - heading "+389 78 218 568" [level=4] [ref=e1730] [box=660,12315,131,15]
+      - generic [ref=e1734] [box=200,12446,1024,11]:
+        - heading "2025" [level=1] [ref=e1736] [box=200,12446,30,11]
+        - heading "All rights reserved." [level=1] [ref=e1738] [box=1112,12446,113,11]
+  - generic [box=0,12593,1425,0]:
+    - generic [box=90,165,34,34]:
+      - link "1748767322116" [box=92,165,30,20]:
+        - /url: "#"
+    - generic [box=90,199,226,54]:
+      - paragraph [box=90,215,226,22]: Based in Skopje, Macedonia
+    - generic [box=90,290,226,20]:
+      - heading "Main menu" [level=5] [box=90,290,226,20]
+    - link "Skills" [box=166,319,74,48]:
+      - /url: "#skills"
+      - generic [box=166,319,74,48]: Skills
+    - link "About" [box=158,369,90,48]:
+      - /url: "#about"
+      - generic [box=158,369,90,48]: About
+    - link "Portfolio" [box=141,419,124,48]:
+      - /url: https://nikolaradeski.com/portfolio/
+      - generic [box=141,419,124,48]: Portfolio
+    - link "Testimonials" [box=111,469,183,48]:
+      - /url: "#testimonials"
+      - generic [box=111,469,183,48]: Testimonials
+    - link "Contact" [box=143,519,120,48]:
+      - /url: "#contact"
+      - generic [box=143,519,120,48]: Contact
+    - generic [box=90,587,226,20]:
+      - heading "For contact inquires" [level=5] [box=90,587,226,20]
+    - link "contact@nikolaradeski.com" [box=90,617,261,32]:
+      - /url: mailto:contact@nikolaradeski.com
+      - generic [box=90,617,261,32]: contact@nikolaradeski.com
+    - link "+389 78 218 568" [box=131,651,144,32]:
+      - /url: tel:+38978218568
+      - generic [box=131,651,144,32]: +389 78 218 568
+    - generic [box=90,705,226,20]:
+      - heading "Social Media" [level=5] [box=90,705,226,20]
+  - region "Go to Top" [box=0,12593,1425,0]:
+    - link " Go to Top" [ref=e1739] [cursor=pointer] [box=1302,865,48,35]:
+      - /url: "#"
+      - text: 
+      - generic [ref=e1740] [box=1332,864,1,1]: Go to Top

@@ -1,0 +1,940 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e4]:
+    - generic:
+      - generic [ref=e9]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e12]: 
+        - link "Skills Skills" [ref=e14] [cursor=pointer]:
+          - /url: "#skills"
+          - generic [ref=e15]:
+            - generic [ref=e16]: Skills
+            - generic: Skills
+        - link "About About" [ref=e18] [cursor=pointer]:
+          - /url: "#about"
+          - generic [ref=e19]:
+            - generic [ref=e20]: About
+            - generic: About
+        - link "Portfolio Portfolio" [ref=e22] [cursor=pointer]:
+          - /url: https://nikolaradeski.com/portfolio/
+          - generic [ref=e23]:
+            - generic [ref=e24]: Portfolio
+            - generic: Portfolio
+          - generic [ref=e25]: 
+        - link "Reviews Reviews" [ref=e27] [cursor=pointer]:
+          - /url: "#testimonials"
+          - generic [ref=e28]:
+            - generic [ref=e29]: Reviews
+            - generic: Reviews
+        - link "Hello, it's me Contact me" [ref=e31] [cursor=pointer]:
+          - /url: "#contact"
+          - generic [ref=e32]:
+            - generic [ref=e33]: Hello, it's me
+            - generic: Contact me
+      - text: 
+    - main [ref=e34]:
+      - generic [ref=e38]:
+        - generic [ref=e43]:
+          - generic [ref=e45]:
+            - generic:
+              - generic:
+                - generic:
+                  - img "Nikola Radeski"
+                - generic:
+                  - generic: Your browser does not support the video tag.
+          - generic [ref=e48]:
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - paragraph [ref=e52]: Award Winning Creative Leader
+                - paragraph
+              - heading "NIKOLA" [level=1] [ref=e54]:
+                - paragraph [ref=e55]: NIKOLA
+                - paragraph
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - paragraph [ref=e59]: Designer & Founder
+                - paragraph
+              - heading "RADESKI" [level=1] [ref=e61]:
+                - paragraph [ref=e62]: RADESKI
+                - paragraph
+              - generic [ref=e63]: Skopje, Macedonia - 08:21 GMT+2
+        - generic [ref=e65]:
+          - generic [ref=e74]:
+            - heading "Top performing" [level=6] [ref=e76]:
+              - paragraph [ref=e77]: Top performing
+              - paragraph [ref=e78]
+            - heading "01. Web Design" [level=3] [ref=e80]:
+              - paragraph [ref=e81]: 01. Web Design
+              - paragraph [ref=e82]
+            - generic [ref=e83]:
+              - paragraph [ref=e84]: I design no-code websites that are responsive, mobile-friendly, and SEO-ready. Every site is built for usability, speed, and modern design.
+              - paragraph [ref=e85]
+            - generic [ref=e86]:
+              - list [ref=e87]:
+                - listitem [ref=e88]: Figma
+                - listitem [ref=e89]: Framer
+                - listitem [ref=e90]: Webflow
+                - listitem [ref=e91]: Vercel
+                - listitem [ref=e92]: WordPress
+                - listitem [ref=e93]: Elementor
+                - listitem [ref=e94]: Avada
+                - listitem [ref=e95]: Experienced with AI builders
+              - paragraph [ref=e96]
+          - generic [ref=e100]:
+            - heading "MVP Go-to-market" [level=6] [ref=e102]:
+              - paragraph [ref=e103]: MVP Go-to-market
+              - paragraph [ref=e104]
+            - heading "02. Product Design" [level=3] [ref=e106]:
+              - paragraph [ref=e107]: 02. Product Design
+              - paragraph [ref=e108]
+            - generic [ref=e109]:
+              - paragraph [ref=e110]: I build ideas from concept to GTM and scale them into real products. I focus on scope, flows, and aligning features with what users actually need.
+              - paragraph [ref=e111]
+            - generic [ref=e112]:
+              - list [ref=e113]:
+                - listitem [ref=e114]: MVP Design
+                - listitem [ref=e115]: Pitch Decks
+                - listitem [ref=e116]: Brand Identity
+                - listitem [ref=e117]: Product Positioning,
+                - listitem [ref=e118]: Marketing Collateral
+                - listitem [ref=e119]: Investor Presentations
+              - paragraph [ref=e120]
+          - generic [ref=e124]:
+            - heading "User Focused" [level=6] [ref=e126]:
+              - paragraph [ref=e127]: User Focused
+              - paragraph [ref=e128]
+            - heading "03. UI/UX Systems" [level=3] [ref=e130]:
+              - paragraph [ref=e131]: 03. UI/UX Systems
+              - paragraph [ref=e132]
+            - generic [ref=e133]:
+              - paragraph [ref=e134]: I design user journeys, wireframes, and prototypes that make digital products easy to use. Testing and research keep the experience grounded in reality.
+              - paragraph [ref=e135]
+            - generic [ref=e136]:
+              - list [ref=e137]:
+                - listitem [ref=e138]: Figma
+                - listitem [ref=e139]: Framer
+                - listitem [ref=e140]: Webflow
+                - listitem [ref=e141]: WordPress
+                - listitem [ref=e142]: Elementor
+                - listitem [ref=e143]: Avada
+                - listitem [ref=e144]: Vercel, Lovable, Bolt, +10 other AI platforms
+              - paragraph [ref=e145]
+          - generic [ref=e149]:
+            - heading "Brand Defining" [level=6] [ref=e151]:
+              - paragraph [ref=e152]: Brand Defining
+              - paragraph [ref=e153]
+            - heading "04. Graphic Design" [level=3] [ref=e155]:
+              - paragraph [ref=e156]: 04. Graphic Design
+              - paragraph [ref=e157]
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: Highly skilled in creating digital visuals, banners, ads, and posts to deliver clear messaging and engage.
+              - paragraph [ref=e160]
+            - generic [ref=e161]:
+              - list [ref=e162]:
+                - listitem [ref=e163]: Adobe Creative Suite, Photoshop, Illustrator
+                - listitem [ref=e164]: Figma, FigJam, Canva
+                - listitem [ref=e165]: Branding, logos, and visual identity design
+                - listitem [ref=e166]: "Marketing materials: flyers, brochures, posters"
+                - listitem [ref=e167]: Social media visuals and campaigns
+                - listitem [ref=e168]: Typography and layout design
+              - paragraph [ref=e169]
+          - generic [ref=e173]:
+            - heading "Detail Driven + AI" [level=6] [ref=e175]:
+              - paragraph [ref=e176]: Detail Driven + AI
+              - paragraph [ref=e177]
+            - heading "05. Visual Design" [level=3] [ref=e179]:
+              - paragraph [ref=e180]: 05. Visual Design
+              - paragraph [ref=e181]
+            - generic [ref=e182]:
+              - paragraph [ref=e183]: You name it, I do it. Compelling digital visuals that combine aesthetics with clear communication.
+              - paragraph [ref=e184]
+            - generic [ref=e185]:
+              - list [ref=e186]:
+                - listitem [ref=e187]: Adobe Photoshop, Adobe Illustrator
+                - listitem [ref=e188]: Figma, Canva
+                - listitem [ref=e189]: Midjourney, Leonardo, Dall-E
+                - listitem [ref=e190]: GPT, NanoBanana, Gemini, Krea
+                - listitem [ref=e191]: Runway, Firefly, Sora
+                - listitem [ref=e192]: High-performing AI media content
+              - paragraph [ref=e193]
+          - generic [ref=e197]:
+            - heading "Motion with Purpose" [level=6] [ref=e199]:
+              - paragraph [ref=e200]: Motion with Purpose
+              - paragraph [ref=e201]
+            - heading "06. Video Editing" [level=3] [ref=e203]:
+              - paragraph [ref=e204]: 06. Video Editing
+              - paragraph [ref=e205]
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: Expert in video storytelling, explainers, cinematic and promotional content to boost brand presence.
+              - paragraph [ref=e208]
+            - generic [ref=e209]:
+              - list [ref=e210]:
+                - listitem [ref=e211]: Adobe After Effects, Adobe Premiere
+                - listitem [ref=e212]: Promotional videos
+                - listitem [ref=e213]: Color correction / Color grading
+                - listitem [ref=e214]: Motion Graphics / Explainers
+                - listitem [ref=e215]: Sound engineering
+                - listitem [ref=e216]: Topaz Labs + Video scaling
+                - listitem [ref=e217]: AI Video Content Gen
+              - paragraph [ref=e218]
+          - generic [ref=e222]:
+            - heading "Data Backed Decisions" [level=6] [ref=e224]:
+              - paragraph [ref=e225]: Data Backed Decisions
+              - paragraph [ref=e226]
+            - heading "07. Digital Marketing" [level=3] [ref=e228]:
+              - paragraph [ref=e229]: 07. Digital Marketing
+              - paragraph [ref=e230]
+            - generic [ref=e231]:
+              - paragraph [ref=e232]: I was leading teams twice, in the Marketing sector. I plan and run campaigns across search, social, and email. Every move is tracked and optimized for growth, leads, and ROI.
+              - paragraph [ref=e233]
+            - generic [ref=e234]:
+              - list [ref=e235]:
+                - listitem [ref=e236]: Google Analytics, Google Ads, Meta Ads, Mailchimp, HubSpot, Google Search Console
+                - listitem [ref=e237]: SEO and SEM
+                - listitem [ref=e238]: Email marketing campaigns
+                - listitem [ref=e239]: Paid social and search campaigns
+                - listitem [ref=e240]: Big results for clients with targetted ads
+                - listitem [ref=e241]: Fluent with Notion, Jira, Trello
+              - paragraph [ref=e242]
+          - generic [ref=e246]:
+            - heading "Audience Growing" [level=6] [ref=e248]:
+              - paragraph [ref=e249]: Audience Growing
+              - paragraph [ref=e250]
+            - heading "08. Social Media Marketing" [level=3] [ref=e252]:
+              - paragraph [ref=e253]: 08. Social Media Marketing
+              - paragraph [ref=e254]
+            - generic [ref=e255]:
+              - paragraph [ref=e256]: I have grown many channels I managed to big numbers, I also designed and organized content and engagement strategies.
+              - paragraph [ref=e257]
+            - generic [ref=e258]:
+              - list [ref=e259]:
+                - listitem [ref=e260]: Content planning and posting schedules
+                - listitem [ref=e261]: Campaign creation and paid ads
+                - listitem [ref=e262]: Social analytics and reporting
+                - listitem [ref=e263]: Community engagement and management
+              - paragraph [ref=e264]
+        - generic [ref=e266]:
+          - generic [ref=e271]:  
+          - heading "13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award / 13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award /" [level=6] [ref=e278]:
+            - generic [ref=e279]: 13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award /
+            - generic [ref=e280]: 13+ Years of Experience / 600+ Successful Projects / 130+ Reviews-Testimonials / 100% Customer Satisfaction Rate / 50+ Leading Platform Experiences / 9 Certificates / Top Graphic Design Voice Award /
+        - generic [ref=e282]:
+          - generic [ref=e292]:
+            - heading "WD Website Favorite" [level=4] [ref=e296]
+            - heading "WD Awards" [level=4] [ref=e300]
+            - heading "April 3, 2026" [level=4] [ref=e304]
+          - generic [ref=e307]:
+            - heading "Project of The Day" [level=4] [ref=e311]
+            - heading "Astonishing Awards" [level=4] [ref=e315]
+            - heading "March 22, 2026" [level=4] [ref=e319]
+          - generic [ref=e322]:
+            - heading "Site of The Day Nominee" [level=4] [ref=e326]
+            - heading "Awwwards" [level=4] [ref=e330]
+            - heading "March 21, 2026" [level=4] [ref=e334]
+          - generic [ref=e337]:
+            - heading "Best Website Nominee" [level=4] [ref=e341]
+            - heading "WD Awards" [level=4] [ref=e345]
+            - heading "March 17, 2026" [level=4] [ref=e349]
+          - generic [ref=e352]:
+            - heading "Portfolio of The Day" [level=4] [ref=e356]
+            - heading "Foliobin" [level=4] [ref=e360]
+            - heading "March 03, 2026" [level=4] [ref=e364]
+          - generic [ref=e367]:
+            - heading "Site of The Month" [level=4] [ref=e371]
+            - heading "Web Design Awards" [level=4] [ref=e375]
+            - heading "March, 2026" [level=4] [ref=e379]
+          - generic [ref=e382]:
+            - heading "Site Highlight" [level=4] [ref=e386]
+            - heading "Foliobin" [level=4] [ref=e390]
+            - heading "February 20, 2026" [level=4] [ref=e394]
+          - generic [ref=e397]:
+            - heading "Site of The Day" [level=4] [ref=e401]
+            - heading "Web Design Awards" [level=4] [ref=e405]
+            - heading "Nov 24, 2025" [level=4] [ref=e409]
+          - generic [ref=e412]:
+            - heading "Site of The Day" [level=4] [ref=e416]
+            - heading "CSS Nectar" [level=4] [ref=e420]
+            - heading "October 8, 2025" [level=4] [ref=e424]
+          - generic [ref=e427]:
+            - heading "Site of The Day" [level=4] [ref=e431]
+            - heading "Web Guru Awards" [level=4] [ref=e435]
+            - heading "October 3, 2025" [level=4] [ref=e439]
+        - heading "I work with founders, product teams, companies and brands based on strategy and innovation. I set one goal, cut noise, and move. When the job is done, the result is live and measured, not just designed." [level=3] [ref=e445]:
+          - paragraph [ref=e446]: I work with founders, product teams, companies and brands based on strategy and innovation. I set one goal, cut noise, and move. When the job is done, the result is live and measured, not just designed.
+        - generic [ref=e475]:
+          - link [ref=e477] [cursor=pointer]:
+            - /url: https://nikolaradeski.com/portfolio/
+          - generic:
+            - generic:
+              - heading "Click here to see my" [level=4]
+            - generic:
+              - heading "Complete Portfolio" [level=1]
+            - generic:
+              - paragraph: Updated portfolio showcase, as of September, 2025.
+        - generic [ref=e490]:
+          - generic [ref=e491]:
+            - generic [ref=e493]:
+              - heading "Creative Designer" [level=1] [ref=e495]:
+                - paragraph [ref=e496]: Creative Designer
+              - paragraph [ref=e498]: 2025 – Current
+            - paragraph [ref=e502]: TryHackMe LLC
+          - generic [ref=e505]:
+            - generic [ref=e507]:
+              - heading "Founder/Creative Director" [level=1] [ref=e509]:
+                - paragraph [ref=e510]: Founder/Creative Director
+              - paragraph [ref=e512]: 2023 – Current
+            - paragraph [ref=e516]: DirectlyNik™
+          - generic [ref=e519]:
+            - generic [ref=e521]:
+              - heading "Head of Design" [level=1] [ref=e523]:
+                - paragraph [ref=e524]: Head of Design
+              - paragraph [ref=e526]: 2024 – 2025
+            - paragraph [ref=e530]: Involve
+          - generic [ref=e533]:
+            - generic [ref=e535]:
+              - heading "Chief Digital Marketing Executive" [level=1] [ref=e537]:
+                - paragraph [ref=e538]: Chief Digital Marketing Executive
+              - paragraph [ref=e540]: 2021 – 2023
+            - paragraph [ref=e544]: Simplify-ERP®
+          - generic [ref=e547]:
+            - generic [ref=e549]:
+              - heading "Co-Founder" [level=1] [ref=e551]:
+                - paragraph [ref=e552]: Co-Founder
+              - paragraph [ref=e554]: 2020 – 2022
+            - paragraph [ref=e558]: GGHOSTMK
+          - generic [ref=e561]:
+            - generic [ref=e563]:
+              - heading "Marketing Designer & Video Editor" [level=1] [ref=e565]:
+                - paragraph [ref=e566]: Marketing Designer & Video Editor
+              - paragraph [ref=e568]: 2019 – 2021
+            - paragraph [ref=e572]: Simplify-ERP®
+          - generic [ref=e575]:
+            - generic [ref=e577]:
+              - heading "Video Editor (contributor/project)" [level=1] [ref=e579]:
+                - paragraph [ref=e580]: Video Editor (contributor/project)
+              - paragraph [ref=e582]: "2019"
+            - paragraph [ref=e586]: UFC
+          - generic [ref=e589]:
+            - generic [ref=e591]:
+              - heading "Web & Graphic Designer" [level=1] [ref=e593]:
+                - paragraph [ref=e594]: Web & Graphic Designer
+              - paragraph [ref=e596]: 2018 – 2020
+            - paragraph [ref=e600]: PeoplePerHour
+          - generic [ref=e603]:
+            - generic [ref=e605]:
+              - heading "Graphic Designer & Video Editor" [level=1] [ref=e607]:
+                - paragraph [ref=e608]: Graphic Designer & Video Editor
+              - paragraph [ref=e610]: 2016 – 2018
+            - paragraph [ref=e614]: PeoplePerHour
+          - generic [ref=e617]:
+            - generic [ref=e619]:
+              - heading "Assistant Video Editor (project)" [level=1] [ref=e621]:
+                - paragraph [ref=e622]: Assistant Video Editor (project)
+              - paragraph [ref=e624]: "2016"
+            - paragraph [ref=e628]: UFC
+          - generic [ref=e631]:
+            - generic [ref=e633]:
+              - heading "Graphic & Motion Designer" [level=1] [ref=e635]:
+                - paragraph [ref=e636]: Graphic & Motion Designer
+              - paragraph [ref=e638]: "2016"
+            - paragraph [ref=e642]: Fiverr
+          - generic [ref=e645]:
+            - generic [ref=e647]:
+              - heading "Graphic Designer & Video Editor" [level=1] [ref=e649]:
+                - paragraph [ref=e650]: Graphic Designer & Video Editor
+              - paragraph [ref=e652]: 2015 – 2016
+            - paragraph [ref=e656]: Upwork
+          - generic [ref=e659]:
+            - generic [ref=e661]:
+              - heading "Video Editor & Visual Designer" [level=1] [ref=e663]:
+                - paragraph [ref=e664]: Video Editor & Visual Designer
+              - paragraph [ref=e666]: 2012 – 2013
+            - paragraph [ref=e670]: YouTube/Twitch Streamers
+          - generic [ref=e673]:
+            - generic [ref=e675]:
+              - heading "Web/Blog Designer" [level=1] [ref=e677]:
+                - paragraph [ref=e678]: Web/Blog Designer
+              - paragraph [ref=e680]: 2010 – 2012
+            - paragraph [ref=e684]: Bloger.hr (Index.hr)
+          - generic [ref=e687]:
+            - generic [ref=e689]:
+              - heading "Video Director/Producer" [level=1] [ref=e691]:
+                - paragraph [ref=e692]: Video Director/Producer
+              - paragraph [ref=e694]: 2009 – 2018
+            - paragraph [ref=e698]: YouTube
+        - generic [ref=e711]:
+          - list [ref=e713]:
+            - listitem [ref=e714]:
+              - generic [ref=e715]:
+                - 'img "Rating: 5.00 out of 5" [ref=e716]':
+                  - generic [ref=e717]:
+                    - generic [ref=e718]: 
+                    - generic [ref=e719]: 
+                    - generic [ref=e720]: 
+                    - generic [ref=e721]: 
+                    - generic [ref=e722]: 
+                - paragraph [ref=e724]: I asked and Nik delivered honestly. I didn't want a generic website, i wanted something i could build as a hobby and actoually be proud of. He got that instantly and gave me what I needed. I [...]
+                - generic [ref=e727]:
+                  - paragraph [ref=e731]: Giovanni
+                  - paragraph [ref=e735]: Website Design
+                  - paragraph [ref=e739]: March 2026
+            - listitem [ref=e740]:
+              - generic [ref=e741]:
+                - 'img "Rating: 5.00 out of 5" [ref=e742]':
+                  - generic [ref=e743]:
+                    - generic [ref=e744]: 
+                    - generic [ref=e745]: 
+                    - generic [ref=e746]: 
+                    - generic [ref=e747]: 
+                    - generic [ref=e748]: 
+                - paragraph [ref=e750]: Nikola Radeski is very talented doing vibe coding + designing. I have an AI startup and I needed help with vibe code and design directions (for my team) so Nikola did exactly that as he's cl [...]
+                - generic [ref=e753]:
+                  - paragraph [ref=e757]: Oliver S.
+                  - paragraph [ref=e761]: Design & Vibe Coding
+                  - paragraph [ref=e765]: February 2026
+            - listitem [ref=e766]:
+              - generic [ref=e767]:
+                - 'img "Rating: 5.00 out of 5" [ref=e768]':
+                  - generic [ref=e769]:
+                    - generic [ref=e770]: 
+                    - generic [ref=e771]: 
+                    - generic [ref=e772]: 
+                    - generic [ref=e773]: 
+                    - generic [ref=e774]: 
+                - paragraph [ref=e776]: I have been working with Nik for a month now and he is working on my company as a Team Leader and Designer and im very impressed so much of things have changed on the team for a good way and [...]
+                - generic [ref=e779]:
+                  - paragraph [ref=e783]: Rilind
+                  - paragraph [ref=e787]: Design / Creative Lead
+                  - paragraph [ref=e791]: September 2025
+            - listitem [ref=e792]:
+              - generic [ref=e793]:
+                - 'img "Rating: 5.00 out of 5" [ref=e794]':
+                  - generic [ref=e795]:
+                    - generic [ref=e796]: 
+                    - generic [ref=e797]: 
+                    - generic [ref=e798]: 
+                    - generic [ref=e799]: 
+                    - generic [ref=e800]: 
+                - paragraph [ref=e802]: Fast, reliable, and talented, he turned a vague idea into a polished product. Just like he mentions, his design sense is really unmatched. [...]
+                - generic [ref=e805]:
+                  - paragraph [ref=e809]: Tomas
+                  - paragraph [ref=e813]: Branding
+                  - paragraph [ref=e817]: September 2025
+            - listitem [ref=e818]:
+              - generic [ref=e819]:
+                - 'img "Rating: 5.00 out of 5" [ref=e820]':
+                  - generic [ref=e821]:
+                    - generic [ref=e822]: 
+                    - generic [ref=e823]: 
+                    - generic [ref=e824]: 
+                    - generic [ref=e825]: 
+                    - generic [ref=e826]: 
+                - paragraph [ref=e828]: I worked with Nikola on a Webflow project and was impressed right away. He got things moving quickly, kept everything clear, and delivered exactly what was needed. What I appreciated most wa [...]
+                - generic [ref=e831]:
+                  - paragraph [ref=e835]: Siraj
+                  - paragraph [ref=e839]: Webflow Web Design
+                  - paragraph [ref=e843]: September 2025
+            - listitem [ref=e844]:
+              - generic [ref=e845]:
+                - 'img "Rating: 5.00 out of 5" [ref=e846]':
+                  - generic [ref=e847]:
+                    - generic [ref=e848]: 
+                    - generic [ref=e849]: 
+                    - generic [ref=e850]: 
+                    - generic [ref=e851]: 
+                    - generic [ref=e852]: 
+                - paragraph [ref=e854]: I asked for minimal but strong, and that’s exactly what I got. The design feels timeless. [...]
+                - generic [ref=e857]:
+                  - paragraph [ref=e861]: Katarina
+                  - paragraph [ref=e865]: Social Media Design
+                  - paragraph [ref=e869]: August 2025
+            - listitem [ref=e870]:
+              - generic [ref=e871]:
+                - 'img "Rating: 5.00 out of 5" [ref=e872]':
+                  - generic [ref=e873]:
+                    - generic [ref=e874]: 
+                    - generic [ref=e875]: 
+                    - generic [ref=e876]: 
+                    - generic [ref=e877]: 
+                    - generic [ref=e878]: 
+                - paragraph [ref=e880]: Creative beyond limits. We hired him for a short NDA website project. The site he designed boosted my marketing campaign instantly, we see results overnight. [...]
+                - generic [ref=e883]:
+                  - paragraph [ref=e887]: Leandro
+                  - paragraph [ref=e891]: Web Design
+                  - paragraph [ref=e895]: August 2025
+            - listitem [ref=e896]:
+              - generic [ref=e897]:
+                - 'img "Rating: 5.00 out of 5" [ref=e898]':
+                  - generic [ref=e899]:
+                    - generic [ref=e900]: 
+                    - generic [ref=e901]: 
+                    - generic [ref=e902]: 
+                    - generic [ref=e903]: 
+                    - generic [ref=e904]: 
+                - paragraph [ref=e906]: Working with Nick, I can confidently say he is one of the most talented people I’ve ever met. He is a true prodigy when it comes to design — his creativity, precision, and ability to underst [...]
+                - generic [ref=e909]:
+                  - paragraph [ref=e913]: Mihael
+                  - paragraph [ref=e917]: Colleague
+                  - paragraph [ref=e921]: September 2025
+            - listitem [ref=e922]:
+              - generic [ref=e923]:
+                - 'img "Rating: 5.00 out of 5" [ref=e924]':
+                  - generic [ref=e925]:
+                    - generic [ref=e926]: 
+                    - generic [ref=e927]: 
+                    - generic [ref=e928]: 
+                    - generic [ref=e929]: 
+                    - generic [ref=e930]: 
+                - paragraph [ref=e932]: Nik is an exceptional team lead and one of the most talented designers I've had the pleasure to work with. His knowledge and deep understanding of design combined with his organizational ski [...]
+                - generic [ref=e935]:
+                  - paragraph [ref=e939]: Teodora
+                  - paragraph [ref=e943]: Colleague
+                  - paragraph [ref=e947]: September 2025
+            - listitem [ref=e948]:
+              - generic [ref=e949]:
+                - 'img "Rating: 5.00 out of 5" [ref=e950]':
+                  - generic [ref=e951]:
+                    - generic [ref=e952]: 
+                    - generic [ref=e953]: 
+                    - generic [ref=e954]: 
+                    - generic [ref=e955]: 
+                    - generic [ref=e956]: 
+                - paragraph [ref=e958]: He created a website I can't stop looking at, very responsive, he took his time and analyzed most of the crucial part of my business. Amazing, recommended! Will hire him again. [...]
+                - generic [ref=e961]:
+                  - paragraph [ref=e965]: Wesley
+                  - paragraph [ref=e969]: Website & Visual Design
+                  - paragraph [ref=e973]: May 2025
+            - listitem [ref=e974]:
+              - generic [ref=e975]:
+                - 'img "Rating: 5.00 out of 5" [ref=e976]':
+                  - generic [ref=e977]:
+                    - generic [ref=e978]: 
+                    - generic [ref=e979]: 
+                    - generic [ref=e980]: 
+                    - generic [ref=e981]: 
+                    - generic [ref=e982]: 
+                - paragraph [ref=e984]: I got even more of what I wanted, just with some simple explanations. Nikola captured my requirements only by specifying the colors I’d prefer and the website's topics. Each day, I get great [...]
+                - generic [ref=e987]:
+                  - paragraph [ref=e991]: Marta
+                  - paragraph [ref=e995]: Website & Graphic Design
+                  - paragraph [ref=e999]: April 2025
+            - listitem [ref=e1000]:
+              - generic [ref=e1001]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1002]':
+                  - generic [ref=e1003]:
+                    - generic [ref=e1004]: 
+                    - generic [ref=e1005]: 
+                    - generic [ref=e1006]: 
+                    - generic [ref=e1007]: 
+                    - generic [ref=e1008]: 
+                - paragraph [ref=e1010]: Professional, client oriented. Highly recommend. [...]
+                - generic [ref=e1013]:
+                  - paragraph [ref=e1017]: Irena
+                  - paragraph [ref=e1021]: Graphic Design
+                  - paragraph [ref=e1025]: March 2025
+            - listitem [ref=e1026]:
+              - generic [ref=e1027]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1028]':
+                  - generic [ref=e1029]:
+                    - generic [ref=e1030]: 
+                    - generic [ref=e1031]: 
+                    - generic [ref=e1032]: 
+                    - generic [ref=e1033]: 
+                    - generic [ref=e1034]: 
+                - paragraph [ref=e1036]: Excellent client-oriented service. Delivered on time and very professional throughout. [...]
+                - generic [ref=e1039]:
+                  - paragraph [ref=e1043]: Evgenija
+                  - paragraph [ref=e1047]: Graphic Design
+                  - paragraph [ref=e1051]: May 2025
+            - listitem [ref=e1052]:
+              - generic [ref=e1053]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1054]':
+                  - generic [ref=e1055]:
+                    - generic [ref=e1056]: 
+                    - generic [ref=e1057]: 
+                    - generic [ref=e1058]: 
+                    - generic [ref=e1059]: 
+                    - generic [ref=e1060]: 
+                - paragraph [ref=e1062]: Perfectionism in every sense, he pays maximum attention to details and ideas and everything is always implemented on time. My ideas become colorfull with his talent. I use his services for d [...]
+                - generic [ref=e1065]:
+                  - paragraph [ref=e1069]: Riste
+                  - paragraph [ref=e1073]: UI/UX Design & Social Media
+                  - paragraph [ref=e1077]: May 2024
+            - listitem [ref=e1078]:
+              - generic [ref=e1079]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1080]':
+                  - generic [ref=e1081]:
+                    - generic [ref=e1082]: 
+                    - generic [ref=e1083]: 
+                    - generic [ref=e1084]: 
+                    - generic [ref=e1085]: 
+                    - generic [ref=e1086]: 
+                - paragraph [ref=e1088]: “I got Nikola by recommendation, we quickly agreed on Discord about what needs to be edited. Azure communication via email, everything was done within the stipulated time and as we agreed! E [...]
+                - generic [ref=e1091]:
+                  - paragraph [ref=e1095]: Uros
+                  - paragraph [ref=e1099]: Video Editing
+                  - paragraph [ref=e1103]: February 2024
+            - listitem [ref=e1104]:
+              - generic [ref=e1105]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1106]':
+                  - generic [ref=e1107]:
+                    - generic [ref=e1108]: 
+                    - generic [ref=e1109]: 
+                    - generic [ref=e1110]: 
+                    - generic [ref=e1111]: 
+                    - generic [ref=e1112]: 
+                - paragraph [ref=e1114]: “We started working with Nikola for video editing podcast projects and designing many covers for my books and videos. I believe he is the best at what he does there’s no doubt.” [...]
+                - generic [ref=e1117]:
+                  - paragraph [ref=e1121]: Dries
+                  - paragraph [ref=e1125]: Video Editing
+                  - paragraph [ref=e1129]: January 2024
+            - listitem [ref=e1130]:
+              - generic [ref=e1131]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1132]':
+                  - generic [ref=e1133]:
+                    - generic [ref=e1134]: 
+                    - generic [ref=e1135]: 
+                    - generic [ref=e1136]: 
+                    - generic [ref=e1137]: 
+                    - generic [ref=e1138]: 
+                - paragraph [ref=e1140]: “Stãrted a video project with Nikola-and he made cinematic promo for my startup.. He asks relevant questions during interviews and we didnt need any revisations- I am just very happy with hi [...]
+                - generic [ref=e1143]:
+                  - paragraph [ref=e1147]: Diego
+                  - paragraph [ref=e1151]: Video Editing
+                  - paragraph [ref=e1155]: July 2024
+            - listitem [ref=e1156]:
+              - generic [ref=e1157]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1158]':
+                  - generic [ref=e1159]:
+                    - generic [ref=e1160]: 
+                    - generic [ref=e1161]: 
+                    - generic [ref=e1162]: 
+                    - generic [ref=e1163]: 
+                    - generic [ref=e1164]: 
+                - paragraph [ref=e1166]: “My brand shop was not converting too much but then again I had to reach to Nicola for marketing help and promoting it in a sense of improving the quality and he made a strategic funnel and [...]
+                - generic [ref=e1169]:
+                  - paragraph [ref=e1173]: Ida
+                  - paragraph [ref=e1177]: Digital Marketing
+                  - paragraph [ref=e1181]: January 2024
+            - listitem [ref=e1182]:
+              - generic [ref=e1183]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1184]':
+                  - generic [ref=e1185]:
+                    - generic [ref=e1186]: 
+                    - generic [ref=e1187]: 
+                    - generic [ref=e1188]: 
+                    - generic [ref=e1189]: 
+                    - generic [ref=e1190]: 
+                - paragraph [ref=e1192]: “Nikola’s communication is excellent, he went above and beyond to really figure out what I wanted from this project. We are already discussing our next project together.” [...]
+                - generic [ref=e1195]:
+                  - paragraph [ref=e1199]: Jonathan
+                  - paragraph [ref=e1203]: Digital Marketing
+                  - paragraph [ref=e1207]: May 2024
+            - listitem [ref=e1208]:
+              - generic [ref=e1209]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1210]':
+                  - generic [ref=e1211]:
+                    - generic [ref=e1212]: 
+                    - generic [ref=e1213]: 
+                    - generic [ref=e1214]: 
+                    - generic [ref=e1215]: 
+                    - generic [ref=e1216]: 
+                - paragraph [ref=e1218]: “Nikola is great! He is very personable and was very helpful with all my queries.” [...]
+                - generic [ref=e1221]:
+                  - paragraph [ref=e1225]: Lara
+                  - paragraph [ref=e1229]: Social Media
+                  - paragraph [ref=e1233]: March 2024
+            - listitem [ref=e1234]:
+              - generic [ref=e1235]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1236]':
+                  - generic [ref=e1237]:
+                    - generic [ref=e1238]: 
+                    - generic [ref=e1239]: 
+                    - generic [ref=e1240]: 
+                    - generic [ref=e1241]: 
+                    - generic [ref=e1242]: 
+                - paragraph [ref=e1244]: “Great to work with, delivered work on time & is very reliable. Definitely should be worked with.” [...]
+                - generic [ref=e1247]:
+                  - paragraph [ref=e1251]: Jaiden
+                  - paragraph [ref=e1255]: UI/UX
+                  - paragraph [ref=e1259]: January 2024
+            - listitem [ref=e1260]:
+              - generic [ref=e1261]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1262]':
+                  - generic [ref=e1263]:
+                    - generic [ref=e1264]: 
+                    - generic [ref=e1265]: 
+                    - generic [ref=e1266]: 
+                    - generic [ref=e1267]: 
+                    - generic [ref=e1268]: 
+                - paragraph [ref=e1270]: “2nd successful project… well done.” [...]
+                - generic [ref=e1273]:
+                  - paragraph [ref=e1277]: Jonathan
+                  - paragraph [ref=e1281]: UI/UX
+                  - paragraph [ref=e1285]: December 2023
+            - listitem [ref=e1286]:
+              - generic [ref=e1287]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1288]':
+                  - generic [ref=e1289]:
+                    - generic [ref=e1290]: 
+                    - generic [ref=e1291]: 
+                    - generic [ref=e1292]: 
+                    - generic [ref=e1293]: 
+                    - generic [ref=e1294]: 
+                - paragraph [ref=e1296]: “Great work and a really nice lad. Highly recommended :).” [...]
+                - generic [ref=e1299]:
+                  - paragraph [ref=e1303]: Josh
+                  - paragraph [ref=e1307]: UI/UX
+                  - paragraph [ref=e1311]: May 2023
+            - listitem [ref=e1312]:
+              - generic [ref=e1313]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1314]':
+                  - generic [ref=e1315]:
+                    - generic [ref=e1316]: 
+                    - generic [ref=e1317]: 
+                    - generic [ref=e1318]: 
+                    - generic [ref=e1319]: 
+                    - generic [ref=e1320]: 
+                - paragraph [ref=e1322]: “needed 2 revisions but still got the project done successfully.” [...]
+                - generic [ref=e1325]:
+                  - paragraph [ref=e1329]: Abiyah
+                  - paragraph [ref=e1333]: Website CMS
+                  - paragraph [ref=e1337]: October 2022
+            - listitem [ref=e1338]:
+              - generic [ref=e1339]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1340]':
+                  - generic [ref=e1341]:
+                    - generic [ref=e1342]: 
+                    - generic [ref=e1343]: 
+                    - generic [ref=e1344]: 
+                    - generic [ref=e1345]: 
+                    - generic [ref=e1346]: 
+                - paragraph [ref=e1348]: “Nikola was very professional and kind in every aspect. He made my youtube channel looks stunning! I recommend him 10/10” [...]
+                - generic [ref=e1351]:
+                  - paragraph [ref=e1355]: Volen
+                  - paragraph [ref=e1359]: Social Media
+                  - paragraph [ref=e1363]: May 2023
+            - listitem [ref=e1364]:
+              - generic [ref=e1365]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1366]':
+                  - generic [ref=e1367]:
+                    - generic [ref=e1368]: 
+                    - generic [ref=e1369]: 
+                    - generic [ref=e1370]: 
+                    - generic [ref=e1371]: 
+                    - generic [ref=e1372]: 
+                - paragraph [ref=e1374]: “Nikola is one of the best PPH Video Editor and Graphic Designer that produces amazing cinematics and directs like he sais futuristik content. We worked together and I am genuinely happy. I [...]
+                - generic [ref=e1377]:
+                  - paragraph [ref=e1381]: Roos
+                  - paragraph [ref=e1385]: Video Editing
+                  - paragraph [ref=e1389]: November 2023
+            - listitem [ref=e1390]:
+              - generic [ref=e1391]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1392]':
+                  - generic [ref=e1393]:
+                    - generic [ref=e1394]: 
+                    - generic [ref=e1395]: 
+                    - generic [ref=e1396]: 
+                    - generic [ref=e1397]: 
+                    - generic [ref=e1398]: 
+                - paragraph [ref=e1400]: “Nikola was very easy to communicate with, very confident with the work he has produced which is stunning! thank you very much for your help.” [...]
+                - generic [ref=e1403]:
+                  - paragraph [ref=e1407]: Billy
+                  - paragraph [ref=e1411]: UI/UX
+                  - paragraph [ref=e1415]: December 2023
+            - listitem [ref=e1416]:
+              - generic [ref=e1417]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1418]':
+                  - generic [ref=e1419]:
+                    - generic [ref=e1420]: 
+                    - generic [ref=e1421]: 
+                    - generic [ref=e1422]: 
+                    - generic [ref=e1423]: 
+                    - generic [ref=e1424]: 
+                - paragraph [ref=e1426]: “Great service and fast to respond.” [...]
+                - generic [ref=e1429]:
+                  - paragraph [ref=e1433]: Chris
+                  - paragraph [ref=e1437]: Digital Marketing
+                  - paragraph [ref=e1441]: January 2022
+            - listitem [ref=e1442]:
+              - generic [ref=e1443]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1444]':
+                  - generic [ref=e1445]:
+                    - generic [ref=e1446]: 
+                    - generic [ref=e1447]: 
+                    - generic [ref=e1448]: 
+                    - generic [ref=e1449]: 
+                    - generic [ref=e1450]: 
+                - paragraph [ref=e1452]: “nice intro for my cooking channel thanx xx.” [...]
+                - generic [ref=e1455]:
+                  - paragraph [ref=e1459]: Lauren
+                  - paragraph [ref=e1463]: Video Editing
+                  - paragraph [ref=e1467]: April 2022
+            - listitem [ref=e1468]:
+              - generic [ref=e1469]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1470]':
+                  - generic [ref=e1471]:
+                    - generic [ref=e1472]: 
+                    - generic [ref=e1473]: 
+                    - generic [ref=e1474]: 
+                    - generic [ref=e1475]: 
+                    - generic [ref=e1476]: 
+                - paragraph [ref=e1478]: “the guy is crazy with his fingers on the vuideo editing tools ,knows many hotkeys and works very fast” [...]
+                - generic [ref=e1481]:
+                  - paragraph [ref=e1485]: Xui
+                  - paragraph [ref=e1489]: Video Editing
+                  - paragraph [ref=e1493]: October 2022
+            - listitem [ref=e1494]:
+              - generic [ref=e1495]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1496]':
+                  - generic [ref=e1497]:
+                    - generic [ref=e1498]: 
+                    - generic [ref=e1499]: 
+                    - generic [ref=e1500]: 
+                    - generic [ref=e1501]: 
+                    - generic [ref=e1502]: 
+                - paragraph [ref=e1504]: “Professional as usual! This is the second time I hire him and I could say I am simply amazed how fast and efficient he does his work. He is so so skillful and always very kind person. You c [...]
+                - generic [ref=e1507]:
+                  - paragraph [ref=e1511]: Volen
+                  - paragraph [ref=e1515]: Graphic Design
+                  - paragraph [ref=e1519]: September 2022
+            - listitem [ref=e1520]:
+              - generic [ref=e1521]:
+                - 'img "Rating: 4.00 out of 5" [ref=e1522]':
+                  - generic [ref=e1523]:
+                    - generic [ref=e1524]: 
+                    - generic [ref=e1525]: 
+                    - generic [ref=e1526]: 
+                    - generic [ref=e1527]: 
+                    - generic [ref=e1528]: 
+                - paragraph [ref=e1530]: “dident want to go on video calls several times and demanded to just chat we had some difficulties in communication but work is done cheers” [...]
+                - generic [ref=e1533]:
+                  - paragraph [ref=e1537]: Patryk
+                  - paragraph [ref=e1541]: Digital Marketing
+                  - paragraph [ref=e1545]: December 2023
+            - listitem [ref=e1546]:
+              - generic [ref=e1547]:
+                - 'img "Rating: 5.00 out of 5" [ref=e1548]':
+                  - generic [ref=e1549]:
+                    - generic [ref=e1550]: 
+                    - generic [ref=e1551]: 
+                    - generic [ref=e1552]: 
+                    - generic [ref=e1553]: 
+                    - generic [ref=e1554]: 
+                - paragraph [ref=e1556]: “Nik is a beast but also a great salesman .. I got convinced to buy a package I wasn’t interested in in the first place but look at my channel now:)” [...]
+                - generic [ref=e1559]:
+                  - paragraph [ref=e1563]: Jay
+                  - paragraph [ref=e1567]: Social Media
+                  - paragraph [ref=e1571]: June 2024
+          - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+        - generic [ref=e1577]:
+          - generic [ref=e1582]:
+            - heading "How do you ensure high-quality work?" [level=4] [ref=e1585] [cursor=pointer]:
+              - button "How do you ensure high-quality work?" [ref=e1586]:
+                - generic [ref=e1587]:
+                  - text: 
+                  - generic [ref=e1588]: 
+                - generic [ref=e1589]: How do you ensure high-quality work?
+            - heading "What industries and clients have you worked with?" [level=4] [ref=e1592] [cursor=pointer]:
+              - button "What industries and clients have you worked with?" [ref=e1593]:
+                - generic [ref=e1594]:
+                  - text: 
+                  - generic [ref=e1595]: 
+                - generic [ref=e1596]: What industries and clients have you worked with?
+            - heading "Do you work independently or as part of a team?" [level=4] [ref=e1599] [cursor=pointer]:
+              - button "Do you work independently or as part of a team?" [ref=e1600]:
+                - generic [ref=e1601]:
+                  - text: 
+                  - generic [ref=e1602]: 
+                - generic [ref=e1603]: Do you work independently or as part of a team?
+            - heading "What makes you a good team player?" [level=4] [ref=e1606] [cursor=pointer]:
+              - button "What makes you a good team player?" [ref=e1607]:
+                - generic [ref=e1608]:
+                  - text: 
+                  - generic [ref=e1609]: 
+                - generic [ref=e1610]: What makes you a good team player?
+            - heading "How do you approach client feedback?" [level=4] [ref=e1613] [cursor=pointer]:
+              - button "How do you approach client feedback?" [ref=e1614]:
+                - generic [ref=e1615]:
+                  - text: 
+                  - generic [ref=e1616]: 
+                - generic [ref=e1617]: How do you approach client feedback?
+            - heading "Have you handled large or complex projects?" [level=4] [ref=e1620] [cursor=pointer]:
+              - button "Have you handled large or complex projects?" [ref=e1621]:
+                - generic [ref=e1622]:
+                  - text: 
+                  - generic [ref=e1623]: 
+                - generic [ref=e1624]: Have you handled large or complex projects?
+            - heading "Why do clients trust you?" [level=4] [ref=e1627] [cursor=pointer]:
+              - button "Why do clients trust you?" [ref=e1628]:
+                - generic [ref=e1629]:
+                  - text: 
+                  - generic [ref=e1630]: 
+                - generic [ref=e1631]: Why do clients trust you?
+            - heading "If you build agency, why apply for an in-house role?" [level=4] [ref=e1634] [cursor=pointer]:
+              - button "If you build agency, why apply for an in-house role?" [ref=e1635]:
+                - generic [ref=e1636]:
+                  - text: 
+                  - generic [ref=e1637]: 
+                - generic [ref=e1638]: If you build agency, why apply for an in-house role?
+          - text:                
+        - generic [ref=e1644]:
+          - generic [ref=e1651]:
+            - generic [ref=e1653]:
+              - heading "How can I help?" [level=3] [ref=e1655]
+              - paragraph [ref=e1657]: I would love to hear more about your project or company.
+              - generic [ref=e1658]:
+                - generic [ref=e1660]: Your Full Name *
+                - textbox "Your Full Name * Your Full Name *" [ref=e1661]:
+                  - /placeholder: John Smith *
+              - generic [ref=e1662]:
+                - generic [ref=e1664]: Your Role *
+                - textbox "Your Role * Your Role *" [ref=e1665]:
+                  - /placeholder: Founder, Recruiter, Freelancer, etc. *
+              - generic [ref=e1666]:
+                - generic [ref=e1668]: Your E-mail Address *
+                - textbox "Your E-mail Address * Your E-mail Address *" [ref=e1669]:
+                  - /placeholder: mail@example.com *
+              - group "Your status? *" [ref=e1671]:
+                - generic [ref=e1673]: Your status? *
+                - generic [ref=e1674]:
+                  - radio "I have a project" [ref=e1675]
+                  - generic [ref=e1676] [cursor=pointer]: I have a project
+                - generic [ref=e1677]:
+                  - radio "I am a recruiter" [ref=e1678]
+                  - generic [ref=e1679] [cursor=pointer]: I am a recruiter
+              - generic [ref=e1680]:
+                - generic [ref=e1681]: More info *
+                - textbox "More info * More info *" [ref=e1682]:
+                  - /placeholder: What's this about? Project, hiring, or opportunity? *
+              - button "Submit" [ref=e1685] [cursor=pointer]:
+                - generic [ref=e1686]: Submit
+                - generic [ref=e1687]: 
+                - generic [ref=e1688]: 
+              - generic:  
+            - generic [ref=e1690]:
+              - paragraph [ref=e1692]: If the work above fits what you need, send me a note. Share the goal, a link, budget range, and when you want to start. I’ll reply with the next step.
+              - heading "Nikola Radeski" [level=5] [ref=e1694]
+          - text:    
+    - generic [ref=e1700]:
+      - generic [ref=e1702]:
+        - heading "Nikola Radeski" [level=2] [ref=e1706]
+        - heading "Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱" [level=1] [ref=e1712]:
+          - generic [ref=e1713]: Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱
+          - generic [ref=e1714]: Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱ Let’s work together ✱
+        - generic [ref=e1719]:
+          - generic [ref=e1720]: 
+          - heading "contact@nikolaradeski.com" [level=4] [ref=e1722]
+        - generic [ref=e1727]:
+          - generic [ref=e1728]: 
+          - heading "+389 78 218 568" [level=4] [ref=e1730]
+      - generic [ref=e1734]:
+        - heading "2025" [level=1] [ref=e1736]
+        - heading "All rights reserved." [level=1] [ref=e1738]
+  - region "Go to Top":
+    - link " Go to Top" [ref=e1739] [cursor=pointer]:
+      - /url: "#"
+      - text: 
+      - generic [ref=e1740]: Go to Top

@@ -1,0 +1,53 @@
+.falling-text-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: clamp(660px, 58vw, 760px);
+  overflow: hidden;
+  cursor: grab;
+  text-align: left;
+  touch-action: pan-y;
+}
+
+.falling-text-container:active {
+  cursor: grabbing;
+}
+
+.falling-text-target {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  min-height: inherit;
+  padding: clamp(30px, 4vw, 52px) 0 clamp(96px, 12vw, 150px);
+  color: #141617;
+  font-family: "Clash Display", "General Sans", Inter, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.falling-text-word {
+  display: inline-block;
+  margin: 0 clamp(8px, 1.1vw, 16px) clamp(12px, 1.6vw, 20px) 0;
+  user-select: none;
+  white-space: nowrap;
+  will-change: transform, left, top;
+}
+
+.falling-text-word.highlighted {
+  color: var(--accent);
+}
+
+.falling-text-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.falling-text-canvas canvas {
+  display: block;
+}
