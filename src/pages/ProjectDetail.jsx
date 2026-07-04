@@ -52,11 +52,17 @@ function CaseVideo({ media }) {
     />
   );
 
+  const canvasTone = media.canvas ?? "dark";
+
   return (
-    <figure className={`case-video-frame case-video-${media.variant}`} key={media.src} ref={frameRef}>
+    <figure
+      className={`case-video-frame case-video-${media.variant} case-video-canvas-${canvasTone}`}
+      key={media.src}
+      ref={frameRef}
+    >
       {media.variant === "phone" ? (
         <div className="case-video-device" aria-label="iPhone preview">
-          <span className="case-video-notch" aria-hidden="true" />
+          {!media.hideNotch && <span className="case-video-notch" aria-hidden="true" />}
           <div className="case-video-screen">{video}</div>
         </div>
       ) : (
@@ -84,17 +90,6 @@ export default function ProjectDetail() {
         <ArrowLeft size={17} />
         Back to work
       </Link>
-      <section className={`detail-hero tone-${project.tone}`}>
-        <div>
-          <span className="eyebrow">{project.category}</span>
-          <h1>{project.title}</h1>
-          <p>{project.summary}</p>
-          <div className="detail-meta">
-            <span>{project.role}</span>
-            <span>{project.year}</span>
-          </div>
-        </div>
-      </section>
       {caseMedia?.length ? (
         <section className="case-image-flow" aria-label={`${project.title} project images`}>
           {caseMedia.map((media) =>

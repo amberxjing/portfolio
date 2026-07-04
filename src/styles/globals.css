@@ -614,8 +614,7 @@ p {
 }
 
 .section-head h2,
-.resume-copy h1,
-.detail-hero h1 {
+.resume-copy h1 {
   margin-top: 10px;
   color: #141617;
   font-size: clamp(38px, 5vw, 64px);
@@ -1148,42 +1147,6 @@ p {
   font-weight: 600;
 }
 
-.detail-hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  align-items: stretch;
-  padding: clamp(24px, 5vw, 46px);
-  border: 1px solid rgba(51, 51, 51, 0.12);
-  border-radius: 22px;
-  background: var(--surface);
-}
-
-.detail-hero h1 {
-  max-width: 720px;
-}
-
-.detail-hero p {
-  max-width: 610px;
-  margin-top: 18px;
-  color: var(--muted);
-  font-size: 19px;
-}
-
-.detail-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 28px;
-}
-
-.detail-meta span {
-  padding: 8px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.55);
-  color: var(--text);
-  font-size: 14px;
-}
-
 .case-template {
   display: grid;
   gap: 14px;
@@ -1246,6 +1209,17 @@ p {
   border-radius: 18px;
   background: #000000;
   box-shadow: 0 20px 58px rgba(0, 0, 0, 0.08);
+}
+
+.case-video-canvas-white {
+  background: #ffffff;
+}
+
+.case-video-canvas-white .case-video-device {
+  box-shadow:
+    0 30px 78px rgba(20, 24, 31, 0.2),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+    inset 0 0 0 4px rgba(0, 0, 0, 0.88);
 }
 
 .case-video-plain-player {
@@ -1650,7 +1624,6 @@ p {
   .intro-section,
   .section-head,
   .work-hero,
-  .detail-hero,
   .resume-layout,
   .contact-layout {
     grid-template-columns: 1fr;
@@ -1783,7 +1756,6 @@ p {
   .section-head h2,
   .work-hero h1,
   .resume-copy h1,
-  .detail-hero h1,
   .contact-hero h1 {
     font-size: 38px;
   }

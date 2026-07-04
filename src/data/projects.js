@@ -136,6 +136,16 @@ export const projects = [
     tone: "paper",
     cover: "shopee",
     coverImage: new URL("../../asset/project/shopee/封面/18.webp", import.meta.url).href,
+    caseVideos: [
+      {
+        src: new URL("../../asset/project/shopee/视频/maribank-motion-demo.mp4", import.meta.url).href,
+        insertAfter: 10,
+        variant: "phone",
+        canvas: "white",
+        hideNotch: true,
+        label: "MariBank motion demo"
+      }
+    ],
     caseImages: [
       new URL("../../asset/project/shopee/内容/1.webp", import.meta.url).href,
       new URL("../../asset/project/shopee/内容/2.webp", import.meta.url).href,
