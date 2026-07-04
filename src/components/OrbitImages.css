@@ -48,6 +48,7 @@
   position: absolute;
   width: var(--orbit-item-size);
   height: var(--orbit-item-size);
+  opacity: 1;
   offset-anchor: center center;
   offset-distance: 0%;
   offset-rotate: 0deg;
@@ -55,7 +56,13 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   user-select: none;
+  transition: opacity 180ms var(--ease);
   will-change: offset-distance;
+}
+
+.orbit-images.is-loading .orbit-images-item {
+  opacity: 0;
+  animation-play-state: paused;
 }
 
 .orbit-images.is-paused .orbit-images-item {

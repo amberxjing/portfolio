@@ -1,4 +1,4 @@
-import { useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import "./OrbitImages.css";
 
 function generateEllipsePath(cx, cy, rx, ry) {
@@ -32,6 +32,26 @@ function normalizeItem(item, index, altPrefix) {
   };
 }
 
+const preloadImage = (src) =>
+  new Promise((resolve) => {
+    const image = new Image();
+    const settle = () => resolve();
+
+    image.onload = () => {
+      if (typeof image.decode === "function") {
+        image.decode().catch(() => {}).finally(settle);
+        return;
+      }
+      settle();
+    };
+    image.onerror = settle;
+    image.src = src;
+
+    if (image.complete) {
+      image.onload();
+    }
+  });
+
 export default function OrbitImages({
   images = [],
   altPrefix = "Orbiting image",
@@ -58,10 +78,16 @@ export default function OrbitImages({
   const [scale, setScale] = useState(1);
   const [activeIndex, setActiveIndex] = useState(null);
   const [tooltip, setTooltip] = useState(null);
+  const [assetsReady, setAssetsReady] = useState(false);
 
   const items = useMemo(
     () => images.map((item, index) => normalizeItem(item, index, altPrefix)),
     [altPrefix, images],
+  );
+
+  const imageSources = useMemo(
+    () => [...new Set(items.map((item) => item.src).filter(Boolean))],
+    [items],
   );
 
   const path = useMemo(() => {
@@ -84,6 +110,26 @@ export default function OrbitImages({
     observer.observe(containerRef.current);
     return () => observer.disconnect();
   }, [baseWidth, responsive]);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    if (imageSources.length === 0) {
+      setAssetsReady(true);
+      return undefined;
+    }
+
+    setAssetsReady(false);
+    Promise.all(imageSources.map(preloadImage)).then(() => {
+      if (isMounted) {
+        setAssetsReady(true);
+      }
+    });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [imageSources]);
 
   const clearActiveItem = () => {
     setActiveIndex(null);
@@ -117,7 +163,8 @@ export default function OrbitImages({
 
   return (
     <div
-      className={`orbit-images ${activeIndex !== null ? "is-paused has-active" : ""} ${className}`}
+      className={`orbit-images ${assetsReady ? "is-ready" : "is-loading"} ${activeIndex !== null ? "is-paused has-active" : ""} ${className}`}
+      aria-busy={!assetsReady}
       ref={containerRef}
       style={{ aspectRatio: `${baseWidth} / ${baseHeight}` }}
     >
@@ -183,8 +230,9 @@ export default function OrbitImages({
                         className="orbit-images-img"
                         src={item.src}
                         alt={item.alt}
-                        loading="lazy"
+                        loading="eager"
                         decoding="async"
+                        fetchpriority={index === 0 ? "high" : "auto"}
                         draggable={false}
                       />
                     ) : (

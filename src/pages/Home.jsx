@@ -325,7 +325,7 @@ export default function Home() {
                 alt="Amber portrait"
                 loading="eager"
                 decoding="async"
-                fetchPriority="high"
+                fetchpriority="high"
                 onError={hideMissingPortraitImage}
               />
             </motion.div>
@@ -340,7 +340,7 @@ export default function Home() {
                 aria-hidden="true"
                 loading="eager"
                 decoding="async"
-                fetchPriority="high"
+                fetchpriority="high"
                 onError={hideMissingPortraitImage}
               />
               <motion.div
