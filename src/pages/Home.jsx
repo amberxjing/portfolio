@@ -320,14 +320,29 @@ export default function Home() {
               style={{ opacity: prefersReducedMotion ? 1 : frontOpacity }}
             >
               <span className="scroll-portrait-fallback">Amber</span>
-              <img src={portraitSrc} alt="Amber portrait" onError={hideMissingPortraitImage} />
+              <img
+                src={portraitSrc}
+                alt="Amber portrait"
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                onError={hideMissingPortraitImage}
+              />
             </motion.div>
             <motion.div
               className="scroll-portrait-face scroll-portrait-back"
               style={{ opacity: prefersReducedMotion ? 0 : backOpacity }}
             >
               <span className="scroll-portrait-fallback">Amber</span>
-              <img src={portraitSrc} alt="" aria-hidden="true" onError={hideMissingPortraitImage} />
+              <img
+                src={portraitSrc}
+                alt=""
+                aria-hidden="true"
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                onError={hideMissingPortraitImage}
+              />
               <motion.div
                 className="scroll-portrait-mask"
                 style={{ opacity: prefersReducedMotion ? 1 : maskOpacity }}

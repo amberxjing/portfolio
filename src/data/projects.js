@@ -10,18 +10,18 @@ export const projects = [
     year: "2026",
     tone: "dark",
     cover: "ai-project",
-    coverImage: new URL("../../asset/project/ai-project/封面/ai-project-cover.png", import.meta.url).href,
+    coverImage: new URL("../../asset/project/ai-project/封面/ai-project-cover.webp", import.meta.url).href,
     caseImages: [
-      new URL("../../asset/project/ai-project/正文/4.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/5.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/6.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/7.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/8.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/9.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/10.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/11.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/12.png", import.meta.url).href,
-      new URL("../../asset/project/ai-project/正文/13.png", import.meta.url).href
+      new URL("../../asset/project/ai-project/正文/4.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/5.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/6.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/7.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/8.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/9.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/10.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/11.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/12.webp", import.meta.url).href,
+      new URL("../../asset/project/ai-project/正文/13.webp", import.meta.url).href
     ]
   },
   {
@@ -33,21 +33,21 @@ export const projects = [
     year: "2026",
     tone: "dark",
     cover: "recharge-center",
-    coverImage: new URL("../../asset/project/recharge-center/封面/e94b22be-e0d6-4991-af92-0ecb8c0646c1.png", import.meta.url).href,
+    coverImage: new URL("../../asset/project/recharge-center/封面/e94b22be-e0d6-4991-af92-0ecb8c0646c1.webp", import.meta.url).href,
     caseImages: [
-      new URL("../../asset/project/recharge-center/内容/14.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/15.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/16.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/17.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/18.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/19.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/20.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/21.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/22.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/23.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/24.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/25.jpg", import.meta.url).href,
-      new URL("../../asset/project/recharge-center/内容/26.jpg", import.meta.url).href
+      new URL("../../asset/project/recharge-center/内容/14.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/15.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/16.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/17.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/18.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/19.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/20.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/21.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/22.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/23.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/24.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/25.webp", import.meta.url).href,
+      new URL("../../asset/project/recharge-center/内容/26.webp", import.meta.url).href
     ]
   },
   {
@@ -59,11 +59,11 @@ export const projects = [
     year: "2026",
     tone: "paper",
     cover: "mbti",
-    coverImage: new URL("../../asset/project/mbti/封面/41.png", import.meta.url).href,
+    coverImage: new URL("../../asset/project/mbti/封面/41.webp", import.meta.url).href,
     caseImages: [
-      new URL("../../asset/project/mbti/内容/1.png", import.meta.url).href,
-      new URL("../../asset/project/mbti/内容/2.png", import.meta.url).href,
-      new URL("../../asset/project/mbti/内容/3.jpg", import.meta.url).href
+      new URL("../../asset/project/mbti/内容/1.webp", import.meta.url).href,
+      new URL("../../asset/project/mbti/内容/2.webp", import.meta.url).href,
+      new URL("../../asset/project/mbti/内容/3.webp", import.meta.url).href
     ]
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     year: "2026",
     tone: "dark",
     cover: "nas",
-    coverImage: new URL("../../asset/project/nas/封面/nas.png", import.meta.url).href,
+    coverImage: new URL("../../asset/project/nas/封面/nas.webp", import.meta.url).href,
     caseVideos: [
       {
         src: new URL("../../asset/project/nas/正文/xunlei-ux-recording.mp4", import.meta.url).href,
@@ -91,16 +91,16 @@ export const projects = [
       }
     ],
     caseImages: [
-      new URL("../../asset/project/nas/正文/1.1.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.2.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.3.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.4.jpg", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.5.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.6.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.7.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.8.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.9.png", import.meta.url).href,
-      new URL("../../asset/project/nas/正文/1.10.png", import.meta.url).href
+      new URL("../../asset/project/nas/正文/1.1.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.2.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.3.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.4.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.5.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.6.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.7.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.8.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.9.webp", import.meta.url).href,
+      new URL("../../asset/project/nas/正文/1.10.webp", import.meta.url).href
     ]
   },
   {
@@ -112,18 +112,18 @@ export const projects = [
     year: "2026",
     tone: "paper",
     cover: "suanfa",
-    coverImage: new URL("../../asset/project/suanfa/封面/212.png", import.meta.url).href,
+    coverImage: new URL("../../asset/project/suanfa/封面/212.webp", import.meta.url).href,
     caseImages: [
-      new URL("../../asset/project/suanfa/ 内容/27.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/28.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/29.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/30.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/31.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/32.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/33.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/34.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/35.jpg", import.meta.url).href,
-      new URL("../../asset/project/suanfa/ 内容/36.jpg", import.meta.url).href
+      new URL("../../asset/project/suanfa/ 内容/27.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/28.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/29.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/30.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/31.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/32.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/33.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/34.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/35.webp", import.meta.url).href,
+      new URL("../../asset/project/suanfa/ 内容/36.webp", import.meta.url).href
     ]
   },
   {
@@ -135,25 +135,25 @@ export const projects = [
     year: "2026",
     tone: "paper",
     cover: "shopee",
-    coverImage: new URL("../../asset/project/shopee/封面/18.png", import.meta.url).href,
+    coverImage: new URL("../../asset/project/shopee/封面/18.webp", import.meta.url).href,
     caseImages: [
-      new URL("../../asset/project/shopee/内容/1.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/2.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/3.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/4.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/5.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/6.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/7.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/8.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/9.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/10.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/11.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/12.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/13.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/14.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/15.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/16.png", import.meta.url).href,
-      new URL("../../asset/project/shopee/内容/17.png", import.meta.url).href
+      new URL("../../asset/project/shopee/内容/1.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/2.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/3.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/4.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/5.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/6.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/7.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/8.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/9.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/10.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/11.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/12.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/13.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/14.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/15.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/16.webp", import.meta.url).href,
+      new URL("../../asset/project/shopee/内容/17.webp", import.meta.url).href
     ]
   },
   {
@@ -165,10 +165,10 @@ export const projects = [
     year: "2026",
     tone: "dark",
     cover: "plugin",
-    coverImage: new URL("../../asset/project/plugin/封面/37.jpg", import.meta.url).href,
+    coverImage: new URL("../../asset/project/plugin/封面/37.webp", import.meta.url).href,
     caseImages: [
-      new URL("../../asset/project/plugin/内容/37.jpg", import.meta.url).href,
-      new URL("../../asset/project/plugin/内容/38.jpg", import.meta.url).href
+      new URL("../../asset/project/plugin/内容/37.webp", import.meta.url).href,
+      new URL("../../asset/project/plugin/内容/38.webp", import.meta.url).href
     ]
   },
   {
@@ -180,9 +180,9 @@ export const projects = [
     year: "2026",
     tone: "dark",
     cover: "qulin",
-    coverImage: new URL("../../asset/project/qulin/封面/1246.jpg", import.meta.url).href,
+    coverImage: new URL("../../asset/project/qulin/封面/1246.webp", import.meta.url).href,
     caseImages: [
-      new URL("../../asset/project/qulin/内容/Frame 1312318977.jpg", import.meta.url).href
+      new URL("../../asset/project/qulin/内容/Frame 1312318977.webp", import.meta.url).href
     ]
   }
 ];

@@ -96,7 +96,7 @@ export default function ResumePrinter({ tuning = RESUME_PRINTER_TUNING }) {
             aria-busy={!isComplete}
           >
             <div className={styles.paperSurface}>
-              <img className={styles.resumeImage} src={resumeSrc} alt="Amber Xu resume" />
+              <img className={styles.resumeImage} src={resumeSrc} alt="Amber Xu resume" loading="lazy" decoding="async" />
               <a className={styles.paperDownload} href={resumeSrc} download>
                 <span className={styles.paperDownloadButton}>
                   <Download size={16} />

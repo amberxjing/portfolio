@@ -179,7 +179,14 @@ export default function OrbitImages({
                     style={{ "--orbit-counter-rotation": `${-rotation}deg` }}
                   >
                     {item.src ? (
-                      <img className="orbit-images-img" src={item.src} alt={item.alt} draggable={false} />
+                      <img
+                        className="orbit-images-img"
+                        src={item.src}
+                        alt={item.alt}
+                        loading="lazy"
+                        decoding="async"
+                        draggable={false}
+                      />
                     ) : (
                       <span className="orbit-images-text-visual" aria-hidden="true">
                         {item.visualLabel.split("\n").map((line) => (

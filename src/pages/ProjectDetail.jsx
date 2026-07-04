@@ -105,7 +105,8 @@ export default function ProjectDetail() {
                 <img
                   src={media.src}
                   alt={`${project.title} page ${media.imageIndex + 1}`}
-                  loading={media.imageIndex > 1 ? "lazy" : "eager"}
+                  loading="lazy"
+                  decoding="async"
                 />
               </figure>
             )

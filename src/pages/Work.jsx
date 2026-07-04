@@ -37,7 +37,7 @@ export default function Work() {
             <Link to={`/work/${project.slug}`} aria-label={`Open ${project.title}`}>
               {project.coverImage ? (
                 <div className="portfolio-visual portfolio-image-visual" aria-hidden="true">
-                  <img src={project.coverImage} alt="" />
+                  <img src={project.coverImage} alt="" loading="lazy" decoding="async" />
                 </div>
               ) : (
                 <div className={`portfolio-visual cover-${project.cover}`} aria-hidden="true">
