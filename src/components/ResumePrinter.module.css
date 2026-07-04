@@ -15,6 +15,12 @@
   aspect-ratio: 1055 / 1120;
   margin: 0 auto;
   overflow: visible;
+  opacity: 0;
+  transition: opacity 180ms var(--ease);
+}
+
+.isReady {
+  opacity: 1;
 }
 
 .typewriterLayer {

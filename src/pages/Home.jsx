@@ -350,7 +350,7 @@ export default function Home() {
               />
               <div className="scroll-portrait-overlay">
                 <strong>Amber</strong>
-                <span>UXUI Designer</span>
+                <span>UX/UI Designer</span>
               </div>
             </motion.div>
             </motion.div>

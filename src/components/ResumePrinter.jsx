@@ -24,23 +24,65 @@ const RESUME_PRINTER_TUNING = {
 const PRINT_DELAY = 0.3;
 const OVERSHOOT_Y = -18;
 
+const preloadImage = (src) =>
+  new Promise((resolve) => {
+    const image = new Image();
+    const settle = () => resolve();
+
+    image.onload = () => {
+      if (typeof image.decode === "function") {
+        image.decode().catch(() => {}).finally(settle);
+        return;
+      }
+      settle();
+    };
+    image.onerror = settle;
+    image.src = src;
+
+    if (image.complete) {
+      image.onload();
+    }
+  });
+
 export default function ResumePrinter({ tuning = RESUME_PRINTER_TUNING }) {
   const shouldReduceMotion = useReducedMotion();
-  const [isComplete, setIsComplete] = useState(Boolean(shouldReduceMotion));
+  const [assetsReady, setAssetsReady] = useState(false);
+  const [isComplete, setIsComplete] = useState(false);
   const paperTextureSrc = `${import.meta.env.BASE_URL}assets/paper-texture.png`;
 
   const settings = useMemo(() => ({ ...RESUME_PRINTER_TUNING, ...tuning }), [tuning]);
-  const isPrinting = !isComplete && !shouldReduceMotion;
+  const canAnimate = assetsReady && !shouldReduceMotion;
+  const isPrinting = canAnimate && !isComplete;
 
   useEffect(() => {
-    setIsComplete(Boolean(shouldReduceMotion));
-  }, [shouldReduceMotion]);
+    let isMounted = true;
+    setAssetsReady(false);
+    setIsComplete(false);
 
-  const paperY = shouldReduceMotion
+    Promise.all([resumeSrc, printBackSrc, printFrontSrc, paperTextureSrc].map(preloadImage)).then(() => {
+      if (isMounted) {
+        setAssetsReady(true);
+      }
+    });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [paperTextureSrc]);
+
+  useEffect(() => {
+    if (assetsReady && shouldReduceMotion) {
+      setIsComplete(true);
+    }
+  }, [assetsReady, shouldReduceMotion]);
+
+  const paperY = !assetsReady
+    ? settings.paperStartY
+    : shouldReduceMotion
     ? settings.paperEndY
     : [settings.paperStartY, settings.paperEndY + OVERSHOOT_Y, settings.paperEndY];
 
-  const paperTransition = shouldReduceMotion
+  const paperTransition = !canAnimate
     ? { duration: 0 }
     : {
         delay: PRINT_DELAY,
@@ -66,9 +108,9 @@ export default function ResumePrinter({ tuning = RESUME_PRINTER_TUNING }) {
     : { duration: 0.18 };
 
   return (
-    <section className={styles.shell} aria-label="Animated resume printer">
+    <section className={styles.shell} aria-label="Animated resume printer" aria-busy={!assetsReady}>
       <div
-        className={styles.scene}
+        className={`${styles.scene} ${assetsReady ? styles.isReady : ""}`}
         style={{
           "--scene-max-width": settings.sceneMaxWidth,
           "--paper-width": settings.paperWidth,
@@ -88,10 +130,14 @@ export default function ResumePrinter({ tuning = RESUME_PRINTER_TUNING }) {
         <div className={styles.paperViewport} aria-hidden={!isComplete}>
           <motion.article
             className={`${styles.resumePaper} ${isComplete ? styles.isComplete : ""}`}
-            initial={{ y: shouldReduceMotion ? settings.paperEndY : settings.paperStartY }}
+            initial={{ y: settings.paperStartY }}
             animate={{ y: paperY }}
             transition={paperTransition}
-            onAnimationComplete={() => setIsComplete(true)}
+            onAnimationComplete={() => {
+              if (assetsReady) {
+                setIsComplete(true);
+              }
+            }}
             aria-label="Resume preview"
             aria-busy={!isComplete}
           >

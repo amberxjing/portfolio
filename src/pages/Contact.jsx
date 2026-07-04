@@ -1,6 +1,5 @@
-import { ArrowLeft, Check, Github, Mail, Phone } from "lucide-react";
+import { Check, Github, Mail, Phone } from "lucide-react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import DotField from "../components/DotField.jsx";
 import PageShell from "../components/PageShell.jsx";
 
@@ -80,10 +79,6 @@ export default function Contact() {
           />
         ) : null}
       </div>
-      <Link className="back-link" to="/">
-        <ArrowLeft size={17} />
-        Back home
-      </Link>
       <section
         className="contact-layout"
         onPointerMove={moveEyes}
